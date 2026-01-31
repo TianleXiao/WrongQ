@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physics SA1.md",
+                "file": "Physics/Physics SA1.md",
                 "mode": "source",
                 "source": false
               },
@@ -179,8 +179,19 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "47ac9548deda43f8",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -197,15 +208,16 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9a021a3df4273188",
+  "active": "47ac9548deda43f8",
   "lastOpenFiles": [
     "Mathematics/Mathematics SA1.md",
-    "Physics SA1.md",
-    "Pasted image 20260131171550.png",
-    "Pasted image 20260131171528.png",
+    "Physics/Physics SA1.md",
+    "Physics/Assets/Pasted image 20260131171550.png",
+    "Physics/Assets/Pasted image 20260131171528.png",
     "README.md",
     "Mathematics/Mathematics SA1",
     "Mathematics/Assets",
