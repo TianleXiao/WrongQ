@@ -11,7 +11,7 @@ A centralized repository to debug my academic performance across STEM, Business,
 ### 🧪 STEM (Physics, Chemistry, Math)
 - **Focus**: Quantitative precision and Command Terms.
 - **Goal**: Minimize "technical debt" (unit errors, calculation slips).
-- **Tool**: LaTeX ($$E = mc^2$$) and Excalidraw for molecular/force diagrams.
+- **Tool**: LaTeX $$E = mc^2$$Excalidraw for molecular/force diagrams.
 
 ### 📊 Business Management
 - **Focus**: Application of theory to case studies.
