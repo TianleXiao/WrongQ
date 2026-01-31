@@ -27,6 +27,5 @@ A centralized repository to debug my academic performance across STEM, Business,
 1. **Capture**: `Flameshot` for instant exam paper snippets.
 2. **Edit**: `Obsidian 1.11.5` for Markdown & LaTeX.
 3. **Sync**: `git-push` on vault close via Obsidian-Git plugin.
-
 ---
 *“Consistent improvement is better than delayed perfection.”*
