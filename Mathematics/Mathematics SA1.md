@@ -1,5 +1,3 @@
-# IB Math Revision Notes
-
 ## Problem 1: Functions and Trigonometry
 **Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures
 
