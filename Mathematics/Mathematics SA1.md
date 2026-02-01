@@ -1,6 +1,6 @@
 ## Problem 1: Functions and Trigonometry
 **Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures
-
+#Paper2 
 ### 1. Problem Description
 Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (a) Sketch the graph.
@@ -22,7 +22,7 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 
 ## Problem 2: Probability Laws
 **Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram
-
+#Paper2 
 ### 1. Problem Description
 Two events $A$ and $B$ such that $P(A) = 3k$, $P(B) = k$, $P(A \cap B) = \frac{k^2}{2}$, and $P(A \cup B) = 0.78$.
 (a) Find the value of $k$.
@@ -44,3 +44,4 @@ Solving the quadratic (via GDC):
 
 For part (b), $P(A' \cap B) = P(B) - P(A \cap B)$.
 $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
+---
