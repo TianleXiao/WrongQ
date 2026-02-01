@@ -46,9 +46,9 @@ For part (b), $P(A' \cap B) = P(B) - P(A \cap B)$.
 $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 
 ---
-## Problem 3: Exponential Functions and Modeling (Radioactive Carbon Decay)
+## Problem 3: Exponential Functions and Modeling
 **Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
-
+#Paper2 
 ## 1. Problem Description
 The mass $m(t)$ (in nanograms) of radioactive carbon in a plant fossil after $t$ years is modeled by the function:
 $$m(t) = 120e^{-0.000121t}$$
@@ -90,3 +90,4 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 * [ ] **GDC Sketch:** Always draw a small, labeled sketch of the GDC screen (showing the intersection) to justify the answer in Paper 2.
 * [ ] **Completion Check:** Ensure every calculation leads to a final numerical value—never leave an expression as the final answer.
 * [ ] **Round Wisely:** Pay attention to keywords like "complete years" which usually imply an integer answer, otherwise default to 3 SF.
+---

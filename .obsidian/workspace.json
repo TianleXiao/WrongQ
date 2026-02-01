@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Mathematics SA1.md",
+                "file": "Physics/Physics SA1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mathematics SA1"
+              "title": "Physics SA1"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "47ac9548deda43f8",
   "lastOpenFiles": [
-    "Physics/Physics SA1.md",
     "Mathematics/Mathematics SA1.md",
+    "Physics/Physics SA1.md",
     "Physics/Assets/Pasted image 20260131171550.png",
     "Physics/Assets/Pasted image 20260131171528.png",
     "README.md",

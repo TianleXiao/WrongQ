@@ -9,4 +9,5 @@
 
 ### Mistake Summary
 * [ ] Calculation error
-* [x] Conceptual gap: Didn't link deceleration directly to $\mu$.
+* [ ] Conceptual gap: Didn't link deceleration directly to $\mu$.
+---
