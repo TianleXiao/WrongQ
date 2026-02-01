@@ -44,4 +44,49 @@ Solving the quadratic (via GDC):
 
 For part (b), $P(A' \cap B) = P(B) - P(A \cap B)$.
 $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
+
 ---
+## Problem 3: Exponential Functions and Modeling (Radioactive Carbon Decay)
+**Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
+
+## 1. Problem Description
+The mass $m(t)$ (in nanograms) of radioactive carbon in a plant fossil after $t$ years is modeled by the function:
+$$m(t) = 120e^{-0.000121t}$$
+
+(a) Write down the initial mass of the radioactive carbon.  
+(b) Find the mass of the radioactive carbon after 20,000 years.  
+(c) Calculate the smallest number of complete years it takes for more than half the sample to decay.
+
+## 2. Error Analysis
+* **Missing Visual Evidence:** I failed to provide a sketch of the graph when using the GDC to solve part (c). In IB Math Paper 2, showing the GDC screen logic is often required for method marks. 
+    * *Examiner Note:* "I don't see any graph."
+* **Calculation Incompleteness:** In part (b), I correctly substituted the values but failed to write down the final numerical result. 
+* **Precision/Rounding:** I did not reach the final 3 Significant Figures (SF) requirement for the numerical parts of the question.
+
+## 3. Correct Solution
+
+### (a) Initial Mass
+When $t = 0$:
+$$m(0) = 120e^0 = 120 \text{ ng}$$
+
+### (b) Mass after 20,000 years
+$$m(20000) = 120e^{-0.000121 \times 20000}$$
+Using GDC: 
+**$m \approx 10.7$ ng** (to 3 significant figures).
+
+### (c) Solving for Decay Time
+To find when more than half has decayed, the remaining mass must be less than 60 ($120 \div 2$):
+$$120e^{-0.000121t} < 60$$
+
+**GDC Method:**
+1. Plot $y_1 = 120e^{-0.000121x}$ and $y_2 = 60$.
+2. Find the intersection point using the `Intersect` tool.
+3. $t \approx 5728.48...$
+
+**Final Answer:**
+Since we need the "smallest number of **complete years**" for the decay to exceed 50%, we round up to the next integer:
+**$t = 5729$ years.**
+## 4. Preventive Actions (Checklist)
+* [ ] **GDC Sketch:** Always draw a small, labeled sketch of the GDC screen (showing the intersection) to justify the answer in Paper 2.
+* [ ] **Completion Check:** Ensure every calculation leads to a final numerical value—never leave an expression as the final answer.
+* [ ] **Round Wisely:** Pay attention to keywords like "complete years" which usually imply an integer answer, otherwise default to 3 SF.
