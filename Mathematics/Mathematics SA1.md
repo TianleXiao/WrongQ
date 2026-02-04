@@ -1,7 +1,7 @@
 #Flashcards 
 ## Problem 1: Functions and Trigonometry 
 **Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures
-#Paper2 #flashcards 
+#Paper2 #flashcards #Decks
 ### 1. Problem Description
 Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (a) Sketch the graph.
