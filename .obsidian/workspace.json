@@ -11,10 +11,14 @@
             "id": "b33a6407d9fc2ad7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Mathematics SA1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Mathematics SA1"
             }
           }
         ]
@@ -195,6 +199,7 @@
   },
   "active": "cc94e4f374917ef1",
   "lastOpenFiles": [
+    "Mathematics/Assets",
     "Physics/Physics SA1.md",
     "Mathematics/Mathematics SA1.md",
     "Physics/Assets/Pasted image 20260131171550.png",
