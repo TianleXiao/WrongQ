@@ -17,7 +17,8 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 * **(c) Solving:** Use GDC to find intersections with $y = 0.5$ and $y = -0.5$.
     * $x \in [-1, -0.762) \cup (0.762, 1]$
 ---
-<!--SR:!2026-02-05,1,228-->
+<!--SR:!2026-02-05,1,223-->
+
 
 
 ## Problem 2: Probability Laws
@@ -44,7 +45,8 @@ Solving the quadratic (via GDC):
 For part (b), $P(A' \cap B) = P(B) - P(A \cap B)$.
 $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 ---
-<!--SR:!2026-02-05,1,228-->
+<!--SR:!2026-02-05,1,223-->
+
 
 ## Problem 3: Exponential Functions and Modeling
 **Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
@@ -86,4 +88,5 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 * [ ] **Completion Check:** Ensure every calculation leads to a final numerical value—never leave an expression as the final answer.
 * [ ] **Round Wisely:** Pay attention to keywords like "complete years" which usually imply an integer answer, otherwise default to 3 SF.
 ---
-<!--SR:!2026-02-05,1,225-->
+<!--SR:!2026-02-05,1,223-->
+
