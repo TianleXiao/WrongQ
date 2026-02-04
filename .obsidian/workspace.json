@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards",
+                "query": "tag:#Paper2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
