@@ -13,12 +13,13 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 ---
 ### Correct Solution
 * **(a) Sketch:** Ensure the curve is flatter at the origin and ends precisely at $x = \pm 1$.
-  ![[Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw]]Reference![[Pasted image 20260204212525.png]]
+  ![[Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw]]**Reference**![[Pasted image 20260204212525.png]]
 * **(b) Range:** $[-\frac{\pi}{2}, \frac{\pi}{2}]$ or $[-1.57, 1.57]$.
 * **(c) Solving:** Use GDC to find intersections with $y = 0.5$ and $y = -0.5$.
     * $x \in [-1, -0.762) \cup (0.762, 1]$
 ---
-<!--SR:!2026-02-05,1,223-->
+<!--SR:!2026-02-05,1,224-->
+
 
 
 
