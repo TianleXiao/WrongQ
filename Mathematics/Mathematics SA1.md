@@ -1,8 +1,6 @@
 ## Problem 1: Functions and Trigonometry 
 **Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures
-#Paper2 
-
-#flashcards 
+#Paper2 #flashcards 
 ### 1. Problem Description
 Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (a) Sketch the graph.
@@ -10,6 +8,7 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (c) Solve the inequality $|x^2 \arcsin(x)| > 0.5$.
 
 ?
+
 ### 2. Error Analysis
 * **Graphing Accuracy:** Failed to label the endpoints $(-1, -1.57)$ and $(1, 1.57)$. In IB, "Sketch" requires key features like endpoints and intercepts to be clear.
 * **Precision (SF):** Used 2 significant figures (0.76) instead of the required **3 significant figures** (0.762).
