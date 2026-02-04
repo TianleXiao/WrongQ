@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +213,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cc94e4f374917ef1",
+  "active": "093626d69d0ede1d",
   "lastOpenFiles": [
     "Physics/Physics SA1.md",
     "Mathematics/Mathematics SA1.md",
