@@ -20,9 +20,6 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 ---
 <!--SR:!2026-02-05,1,224-->
 
-
-
-
 ## Problem 2: Probability Laws
 **Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram #Paper2 #Flashcards
 
@@ -48,7 +45,6 @@ For part (b), $P(A' \cap B) = P(B) - P(A \cap B)$.
 $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 ---
 <!--SR:!2026-02-05,1,223-->
-
 
 ## Problem 3: Exponential Functions and Modeling
 **Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
