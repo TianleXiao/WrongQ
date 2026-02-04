@@ -1,5 +1,6 @@
 ## Problem 1: Functions and Trigonometry
 **Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures #Paper2 #Flashcards
+
 Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (a) Sketch the graph.
 (b) Write down the range.
@@ -16,19 +17,20 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 * **(c) Solving:** Use GDC to find intersections with $y = 0.5$ and $y = -0.5$.
     * $x \in [-1, -0.762) \cup (0.762, 1]$
 ---
-<!--SR:!2026-02-05,1,230-->
+<!--SR:!2026-02-05,1,228-->
 
 ## Problem 2: Probability Laws
 **Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram #Paper2 #Flashcards
+
 Two events $A$ and $B$ such that $P(A) = 3k$, $P(B) = k$, $P(A \cap B) = \frac{k^2}{2}$, and $P(A \cup B) = 0.78$.
 (a) Find the value of $k$.
 (b) Find $P(A' \cap B)$.
 ?
-### 2. Error Analysis
+### Error Analysis
 * **The Independence Fallacy:** Incorrectly assumed $P(A \cap B) = P(A)P(B)$. Never assume independence unless the question explicitly states "Events A and B are independent."
 * **Mutual Exclusivity Error:** Incorrectly assumed $P(A \cup B) = P(A) + P(B)$. This only works if the events do not overlap.
 ---
-### 3. Correct Solution
+### Correct Solution
 Use the **Inclusion-Exclusion Principle**:
 $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 Substitute the given terms:
