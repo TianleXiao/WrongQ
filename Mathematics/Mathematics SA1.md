@@ -40,10 +40,11 @@ $$0.78 = 4k - 0.5k^2 \implies 0.5k^2 - 4k + 0.78 = 0$$
 Solving the quadratic (via GDC):
 * $k = 0.2$ (Valid)
 * $k = 7.8$ (Reject, as $P(A) = 3k$ would be $> 1$
-**For part (b):**
-$P(A' \cap B) = P(B) - P(A \cap B)$.
+---
+For part (b), $P(A' \cap B) = P(B) - P(A \cap B)$.
 $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 ---
+<!--SR:!2026-02-05,1,228-->
 
 ## Problem 3: Exponential Functions and Modeling
 **Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
