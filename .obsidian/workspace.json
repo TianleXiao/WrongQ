@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Mathematics SA1"
             }
+          },
+          {
+            "id": "7b6ca2af76413393",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-04 21.11.05.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,11 +210,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cc94e4f374917ef1",
+  "active": "7b6ca2af76413393",
   "lastOpenFiles": [
+    "Mathematics/Mathematics SA1.md",
+    "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
+    "Excalidraw",
     "Mathematics/Assets",
     "Physics/Physics SA1.md",
-    "Mathematics/Mathematics SA1.md",
     "Physics/Assets/Pasted image 20260131171550.png",
     "Physics/Assets/Pasted image 20260131171528.png",
     "README.md",
@@ -212,8 +227,6 @@
     "Physics",
     "Business/Assets",
     "Business",
-    "Chinese A/Assets",
-    "Chinese A",
-    "English B/Assets"
+    "Chinese A/Assets"
   ]
 }
