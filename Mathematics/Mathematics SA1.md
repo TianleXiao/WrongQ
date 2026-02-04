@@ -52,7 +52,6 @@ $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 
 The mass $m(t)$ (in nanograms) of radioactive carbon in a plant fossil after $t$ years is modeled by the function:
 $$m(t) = 120e^{-0.000121t}$$
-
 (a) Write down the initial mass of the radioactive carbon.  
 (b) Find the mass of the radioactive carbon after 20,000 years.  
 (c) Calculate the smallest number of complete years it takes for more than half the sample to decay.
@@ -62,9 +61,8 @@ $$m(t) = 120e^{-0.000121t}$$
     * *Examiner Note:* "I don't see any graph."
 * **Calculation Incompleteness:** In part (b), I correctly substituted the values but failed to write down the final numerical result. 
 * **Precision/Rounding:** I did not reach the final 3 Significant Figures (SF) requirement for the numerical parts of the question.
-
+---
 ### Correct Solution
-
 #### (a) Initial Mass
 When $t = 0$:
 $$m(0) = 120e^0 = 120 \text{ ng}$$
