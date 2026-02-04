@@ -69,12 +69,12 @@ $$m(t) = 120e^{-0.000121t}$$
 When $t = 0$:
 $$m(0) = 120e^0 = 120 \text{ ng}$$
 
-### (b) Mass after 20,000 years
+#### (b) Mass after 20,000 years
 $$m(20000) = 120e^{-0.000121 \times 20000}$$
 Using GDC: 
 **$m \approx 10.7$ ng** (to 3 significant figures).
 
-### (c) Solving for Decay Time
+#### (c) Solving for Decay Time
 To find when more than half has decayed, the remaining mass must be less than 60 ($120 \div 2$):
 $$120e^{-0.000121t} < 60$$
 
@@ -86,7 +86,9 @@ $$120e^{-0.000121t} < 60$$
 **Final Answer:**
 Since we need the "smallest number of **complete years**" for the decay to exceed 50%, we round up to the next integer:
 **$t = 5729$ years.**
-## 4. Preventive Actions (Checklist)
+
+---
+#### 4. Preventive Actions (Checklist)
 * [ ] **GDC Sketch:** Always draw a small, labeled sketch of the GDC screen (showing the intersection) to justify the answer in Paper 2.
 * [ ] **Completion Check:** Ensure every calculation leads to a final numerical value—never leave an expression as the final answer.
 * [ ] **Round Wisely:** Pay attention to keywords like "complete years" which usually imply an integer answer, otherwise default to 3 SF.
