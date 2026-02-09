@@ -101,8 +101,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,7 +224,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5b379db4131eb4ea",
+  "active": "cc94e4f374917ef1",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
