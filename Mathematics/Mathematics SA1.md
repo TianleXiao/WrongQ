@@ -127,7 +127,6 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
-
 (b) Find the coordinates of:
     (i) The $x$-intercept.
     (ii) The $y$-intercept.
