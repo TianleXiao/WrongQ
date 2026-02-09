@@ -175,8 +175,6 @@ Consider $f(x) = 2^x - \frac{1}{2^x}$ for $x \in \mathbb{R}$.
 (a) Show that $f$ is an odd function.
 (b) Solve $f(x) \ge g(x)$ where $g(x) = \frac{x-1}{x^2 - 2x - 3}$.
 ?
-
----
 ### Error Analysis
 - **Notation and Logic (Part a):** You correctly identified the symmetry, but the concluding statement "$f(x) = f(-x)$" describes an **even** function. For an **odd** function, you must show $f(-x) = -f(x)$.
 - **Inequality Boundary Errors (Part b):**
@@ -198,6 +196,5 @@ To show a function is odd, we must prove $f(-x) = -f(x)$.
     - **Vertical Asymptotes (of $g(x)$):** Solve $x^2 - 2x - 3 = 0 \implies (x-3)(x+1)=0$. So, $x = -1$ and $x = 3$.
 2. **Test Intervals:** Look at the graph to see where the line for $f(x)$ is "higher" than the curve for $g(x)$.
 3. **Solution Set:**    $$-1.27 \le x < -1 \quad \text{or} \quad 0.183 \le x < 3 \quad \text{or} \quad x \ge 3.06$$
-
     _(Note: Use $<$ for asymptotes because the function is undefined there, and $\le$ for intersection points.)
 ---
