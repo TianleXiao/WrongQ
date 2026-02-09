@@ -127,6 +127,42 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
+![[Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw]]
 (b) Find the coordinates of:
     (i) The $x$-intercept.
     (ii) The $y$-intercept.
+?
+### Error Analysis
+- **Domain Misinterpretation:** The sketch failed to respect the restricted domain $-3 \le x \le 2$. An IB "sketch" requires clear endpoints if a domain is specified.
+- **Asymptote Neglect:** The horizontal asymptote $y = -4$ was not clearly indicated or approached correctly in the drawing.
+- **Calculation/Accuracy Error:** * The $x$-intercept was rounded prematurely to $(1, 0)$. In IB Math, answers should be given to **3 significant figures** (3sf) unless exact.
+    - The $y$-intercept was identified as $(0, -3.8)$, but $0.2e^2 - 4 \approx -2.52$. It appears the value $-3.8$ was a visual estimate or a calculator entry error.
+---
+### Correct Solution
+#### (a) Sketching the Graph
+To get full marks, your sketch must show:
+1. **Correct Shape:** An increasing exponential curve.
+2. **Endpoints:** Left: $(-3, f(-3)) \approx (-3, -3.93)$
+    - Right: $(2, f(2)) \approx (2, 10.8)$ (Note: This point is off the provided grid, so the curve should exit the top of the grid accurately).
+3. **Horizontal Asymptote:** The curve should flatten as it moves left, approaching $y = -4$.
+#### (b) Finding the Intercepts
+**(i) $x$-intercept:**
+Set $f(x) = 0$:
+$$0 = 0.2e^{x+2} - 4$$
+$$4 = 0.2e^{x+2}$$
+$$20 = e^{x+2}$$
+$$\ln(20) = x + 2$$
+$$x = \ln(20) - 2 \approx 0.996$$
+**Coordinates: $(0.996, 0)$**
+**(ii) $y$-intercept:**
+Set $x = 0$:
+$$f(0) = 0.2e^{0+2} - 4$$
+$$f(0) = 0.2e^2 - 4$$
+$$f(0) \approx 0.2(7.389) - 4$$
+$$f(0) \approx 1.478 - 4 = -2.522$$
+**Coordinates: $(0, -2.52)$**
+---
+### GDC Tips for this Problem
+- **Table Mode:** Use the table function to find exact values for $x = -3, -2, -1, 0, 1, 2$ before sketching.
+- **Zero/Intercept Tools:** Use `Analyze Graph` -> `Zero` to find the $x$-intercept precisely.
+---
