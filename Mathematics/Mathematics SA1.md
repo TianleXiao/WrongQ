@@ -282,3 +282,71 @@ Read from $x = 2750$ up to the curve and across to the $y$-axis.
 - **Box:** Ends at $2200$ ($Q_1$) and $3600$ ($Q_3$).
 - **Median:** Vertical line inside the box at $2800$.
 ---
+## Problem 10: Financial Mathematics (Loans and Sequences)
+
+**Tags:** #Finance #GeometricSequences #Loans #Amortization #GDC #Paper2
+
+Jane borrows $\$480,000$ for $10$ years at $r\%$ interest p.a. compounded monthly.
+- Initial debt: $A = \$480,000$
+- Monthly repayment: $p$
+- Monthly interest factor: $k = 1 + \frac{r}{1200}$
+?
+
+### Error Analysis
+- **Sequence Misidentification:** In financial problems where interest is added _before_ the payment, the balance follows a specific recurrence relation. Many students mistake this for a simple interest problem or fail to set the final balance to zero.
+- **Rounding in Intermediate Steps:** Because the exponent is $1200$, even a small rounding error in the value of $r$ or $k$ leads to a massive discrepancy in the final dollar amount. Always keep the full precision in your GDC.
+- **Time Calculation (Part b):** "7 years and 4 months" must be converted correctly to total months ($7 \times 12 + 4 = 88$ payments) to find the remaining balance.
+---
+### Correct Solution
+#### (a) Scenario 1: $p = \$5000$
+** (i) Number of payments:**
+$10 \text{ years} \times 12 \text{ months/year} = \mathbf{120 \text{ payments}}$.
+** (ii) Show that $96k^{120} = \frac{k^{120}-1}{k-1}$:**
+The balance $B_n$ after $n$ months is:
+$B_n = Ak^n - p(\frac{k^n - 1}{k-1})$.
+For the loan to be repaid, $B_{120} = 0$:
+$480000k^{120} = 5000(\frac{k^{120}-1}{k-1})$.
+Divide both sides by $5000$:
+**$96k^{120} = \frac{k^{120}-1}{k-1}$** (as required).
+** (iii) Find $r$:**
+Using a GDC (Numerical Solver) for the equation above:
+$k \approx 1.00388...$.
+$1 + \frac{r}{1200} = 1.00388... \implies r \approx 4.66$.
+**$r = 4.66\% \text{ (3sf)}$**.
+#### (b) Scenario 2: Final Payment after 88 months
+
+** (i) Payments before final:** The scenario says she makes payments of $p$ for 7 years and 4 months.
+
+**$88 \text{ payments}$**.
+
+** (ii) Final payment amount:**
+
+First, find the balance remaining after 88 months ($B_{88}$):
+
+$B_{88} = 480000k^{88} - 5000(\frac{k^{88}-1}{k-1})$.
+
+Using $k$ from part (a): $B_{88} \approx \$157,640.48$.
+
+The final payment includes this balance plus one last month of interest:
+
+Final Payment $= B_{88} \times k \approx 157640.48 \times 1.00388...$.
+
+**Final Payment $\approx \$158,300$ (to 4sf)**.
+
+#### (c) Scenario 3: Increasing payments
+
+Jane pays $p$ for 60 months, then $2p$ for 60 months.
+
+The balance at month 60 ($B_{60}$) becomes the "initial" amount for the next 60 months:
+
+1. $B_{60} = 480000k^{60} - p(\frac{k^{60}-1}{k-1})$.
+    
+2. $B_{120} = B_{60}k^{60} - 2p(\frac{k^{60}-1}{k-1}) = 0$.
+    
+    Substitute $B_{60}$ into the second equation:
+    
+    $480000k^{120} - p(\frac{k^{60}-1}{k-1})k^{60} - 2p(\frac{k^{60}-1}{k-1}) = 0$.
+    
+    Solve for $p$ using GDC:
+    
+    **$p \approx \$3,439$**.
