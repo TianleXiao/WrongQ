@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Mathematics SA1"
             }
+          },
+          {
+            "id": "85e3972618fffb87",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-09 13.53.43.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,10 +210,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "47ac9548deda43f8",
+  "active": "85e3972618fffb87",
   "lastOpenFiles": [
-    "Physics/Physics SA1.md",
     "Mathematics/Mathematics SA1.md",
+    "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
+    "Physics/Physics SA1.md",
     "2026-02-04.md",
     "Pasted image 20260204212458.png",
     "Pasted image 20260204212449.png",

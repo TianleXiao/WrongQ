@@ -87,5 +87,15 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 * [ ] **Round Wisely:** Pay attention to keywords like "complete years" which usually imply an integer answer, otherwise default to 3 SF.
 ---
 
+## Problem 4: Bearings and Triangle Trigonometry
+
+**Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards
+City B is $70\text{ km}$ from A on a bearing of $130^\circ$. City C is $40\text{ km}$ from B on a bearing of $75^\circ$.
 
 
+
+(a)  Find the distance from City A to C.
+
+(b)) If you wanted to travel rom city A directly to City C, find the bearing you would need to travel.
+
+(c)  Find the area enclosed by connecting the three cities in a triangle ABC.
