@@ -92,7 +92,7 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 **Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards
 City B is $70\text{ km}$ from A on a bearing of $130^\circ$. City C is $40\text{ km}$ from B on a bearing of $75^\circ$.
 
-
+![[Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw]]
 
 (a)  Find the distance from City A to C.
 
