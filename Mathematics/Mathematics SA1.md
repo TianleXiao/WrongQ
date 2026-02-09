@@ -1,5 +1,5 @@
 ## Problem 1: Functions and Trigonometry
-**Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures #Paper2 #Flashcards
+**Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures #Paper2 #Flashcards #SectionA
 
 Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (a) Sketch the graph.
@@ -21,7 +21,7 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 
 
 ## Problem 2: Probability Laws
-**Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram #Paper2 #Flashcards
+**Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram #Paper2 #Flashcards #SectionA
 
 Two events $A$ and $B$ such that $P(A) = 3k$, $P(B) = k$, $P(A \cap B) = \frac{k^2}{2}$, and $P(A \cup B) = 0.78$.
 (a) Find the value of $k$.
@@ -48,7 +48,7 @@ $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 
 ## Problem 3: Exponential Functions and Modeling
 **Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
-#Paper2 #Flashcards
+#Paper2 #Flashcards #SectionA
 
 The mass $m(t)$ (in nanograms) of radioactive carbon in a plant fossil after $t$ years is modeled by the function:
 $$m(t) = 120e^{-0.000121t}$$
@@ -89,7 +89,7 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 
 ## Problem 4: Bearings and Triangle Trigonometry
 
-**Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards
+**Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards #SectionA
 
 City B is $70\text{ km}$ from A on a bearing of $130^\circ$. City C is $40\text{ km}$ from B on a bearing of $75^\circ$.
 ![[Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw]]
@@ -125,7 +125,7 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ## Problem 5: Exponential Functions and Graphing
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
-
+#SectionA
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
 ![[Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw]]
@@ -169,7 +169,7 @@ $$f(0) \approx 1.478 - 4 = -2.522$$
 ---
 ## Problem 6: Function Properties and Inequalities
 
-**Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2
+**Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2 #SectionA
 
 Consider $f(x) = 2^x - \frac{1}{2^x}$ for $x \in \mathbb{R}$.
 (a) Show that $f$ is an odd function.
@@ -200,7 +200,7 @@ To show a function is odd, we must prove $f(-x) = -f(x)$.
 ---
 ## Problem 7: Composite and Inverse Functions
 
-**Tags:** #Functions #InverseFunctions #RangeAndDomain #Trigonometry #GDC #Paper2
+**Tags:** #Functions #InverseFunctions #RangeAndDomain #Trigonometry #GDC #Paper2 #SectionA
 
 A function $g$ is defined by $g(x) = \arccos\left(\frac{x^2 - 1}{x^2 + 1}\right), x \in \mathbb{R}, x \ge 0$.
 (a) Find the range of $g$.
