@@ -122,7 +122,7 @@ Use the **Area Formula**: $\text{Area} = \frac{1}{2}ab\sin C$
 $$\text{Area} = \frac{1}{2}(70)(40)\sin(125^\circ)$$
 $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ---
-## Problem 6: Exponential Functions and Graphing
+## Problem 5: Exponential Functions and Graphing
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
 
@@ -167,7 +167,7 @@ $$f(0) \approx 1.478 - 4 = -2.522$$
 - **Table Mode:** Use the table function to find exact values for $x = -3, -2, -1, 0, 1, 2$ before sketching.
 - **Zero/Intercept Tools:** Use `Analyze Graph` -> `Zero` to find the $x$-intercept precisely.
 ---
-## Problem 7: Function Properties and Inequalities
+## Problem 6: Function Properties and Inequalities
 
 **Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2
 
@@ -197,4 +197,43 @@ To show a function is odd, we must prove $f(-x) = -f(x)$.
 2. **Test Intervals:** Look at the graph to see where the line for $f(x)$ is "higher" than the curve for $g(x)$.
 3. **Solution Set:**    $$-1.27 \le x < -1 \quad \text{or} \quad 0.183 \le x < 3 \quad \text{or} \quad x \ge 3.06$$
     _(Note: Use $<$ for asymptotes because the function is undefined there, and $\le$ for intersection points.)
+---
+## Problem 7: Composite and Inverse Functions
+
+**Tags:** #Functions #InverseFunctions #RangeAndDomain #Trigonometry #GDC #Paper2
+
+A function $g$ is defined by $g(x) = \arccos\left(\frac{x^2 - 1}{x^2 + 1}\right), x \in \mathbb{R}, x \ge 0$.
+(a) Find the range of $g$.
+(b) Find an expression for $g^{-1}(x)$.
+(c) State the domain of $g^{-1}(x)$.
+(d) Sketch the graph of $y = g^{-1}(x)$, indicating asymptotes and intercepts.
+?
+### Error Analysis
+- **Range Misunderstanding (Part a):** The range of $y = \arccos(u)$ is $[0, \pi]$. You indicated $y \ge \pi$, which is outside the possible output of the arccosine function.
+- **Inverse Algebra (Part b):** Your attempt swapped the function name but didn't solve for $x$. To find an inverse, you must swap $x$ and $y$ and then isolate $y$.
+- **Domain Relationship (Part c):** While you correctly stated that "the domain of $g^{-1}$ is the range of $g$," the numerical value was incorrect because the range in part (a) was wrong.
+- **Graphing Error (Part d):** The sketch showed a bell-shaped curve. Since $g(x)$ is strictly increasing for $x \ge 0$, its inverse $g^{-1}(x)$ must also be strictly increasing.
+---
+### Correct Solution
+#### (a) Find the range of $g$
+Consider the inner function $f(x) = \frac{x^2 - 1}{x^2 + 1}$.
+- When $x = 0$, $f(0) = -1$.
+- As $x \to \infty$, $f(x) \to 1$.
+- Therefore, the input to $\arccos$ ranges from $[-1, 1)$.
+- $\arccos(-1) = \pi$ and $\arccos(1) = 0$.
+    **Range:** $0 < y \le \pi$.
+#### (b) Find an expression for $g^{-1}(x)$
+1. Set $x = \arccos\left(\frac{y^2 - 1}{y^2 + 1}\right)$.
+2. Take the cosine of both sides: $\cos(x) = \frac{y^2 - 1}{y^2 + 1}$.
+3. Multiply through: $y^2\cos(x) + \cos(x) = y^2 - 1$.
+4. Rearrange to isolate $y^2$: $1 + \cos(x) = y^2(1 - \cos(x))$.
+5. $y^2 = \frac{1 + \cos(x)}{1 - \cos(x)}$.
+    **$g^{-1}(x) = \sqrt{\frac{1 + \cos(x)}{1 - \cos(x)}}$** (Note: only the positive root as $x \ge 0$).
+#### (c) State the domain of $g^{-1}(x)$
+The domain of the inverse is the range of the original function.
+**Domain:** $0 < x \le \pi$.
+#### (d) Sketch the graph of $y = g^{-1}(x)$
+- **Vertical Asymptote:** $x = 0$ (since $\cos(0) = 1$, the denominator becomes $0$).
+- **$x$-intercept:** None.
+- **Endpoint:** When $x = \pi$, $y = \sqrt{\frac{1-1}{1+1}} = 0$. So the graph touches the axis at $(\pi, 0)$.
 ---
