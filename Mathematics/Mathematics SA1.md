@@ -237,3 +237,48 @@ The domain of the inverse is the range of the original function.
 - **$x$-intercept:** None.
 - **Endpoint:** When $x = \pi$, $y = \sqrt{\frac{1-1}{1+1}} = 0$. So the graph touches the axis at $(\pi, 0)$.
 ---
+## Problem 8: Cumulative Frequency and Data Analysis
+
+**Tags:** #Statistics #CumulativeFrequency #BoxPlot #Quartiles #Paper2
+A study of 80 Uber drivers in San Francisco records the distance traveled in April. 
+(a) Find the number of drivers who traveled between $3200$ and $5000$ km. 
+(b) Find the median, lower quartile ($Q_1$), and upper quartile ($Q_3$). 
+(c) Find the Interquartile Range (IQR). 
+(d) Write down the percentage of drivers traveling more than $Q_3$. 
+(e) Find the number of drivers who traveled $\le 2750$ km. 
+(f) Find $m$ if 11 drivers traveled more than $m$ km. 
+(g) Draw a box-and-whisker diagram.
+?
+### Error Analysis
+- **Graph Reading Precision:** On cumulative frequency curves, small deviations in reading the $x$-axis lead to significant errors in the frequency ($y$-axis). For example, in part (e), $2750$ km must be mapped precisely to the curve.
+- **Percentage vs. Count:** In part (d), the question asks for a **percentage**. Since $Q_3$ is the 75th percentile, $25\%$ of the data always lies above it, regardless of the total frequency.
+- **Inverse Reading (Part f):** To find $m$ where 11 drivers traveled more than $m$, you must look for the value at $80 - 11 = 69$ on the cumulative frequency axis, then find the corresponding $x$.
+- **Box Plot Scale:** Part (g) explicitly requires a scale of $2\text{ cm}$ to $1000\text{ km}$. Failure to use this specific scale on graph paper results in a loss of all marks for that section.
+---
+### Correct Solution
+
+#### (a) Drivers between $3200$ and $5000$ km
+1. At $x = 5000$, $y = 78$ (approx).
+2. At $x = 3200$, $y = 50$ (approx).
+3. **Number of drivers:** $78 - 50 = 28$.
+#### (b) Quartiles
+1. **Median ($M$):** $50\%$ of $80 = 40$. Read from $y=40 \implies x \approx 2800\text{ km}$.
+2. **Lower Quartile ($Q_1$):** $25\%$ of $80 = 20$. Read from $y=20 \implies x \approx 2200\text{ km}$.
+3. **Upper Quartile ($Q_3$):** $75\%$ of $80 = 60$. Read from $y=60 \implies x \approx 3600\text{ km}$.
+#### (c) Interquartile Range (IQR)
+$$IQR = Q_3 - Q_1 = 3600 - 2200 = 1400\text{ km}$$
+#### (d) Percentage above $Q_3$
+By definition, the upper quartile is the 75th percentile.
+**Percentage:** $100\% - 75\% = 25\%$.
+#### (e) Drivers $\le 2750$ km
+Read from $x = 2750$ up to the curve and across to the $y$-axis.
+**Number of drivers:** $\approx 38$.
+#### (f) Find $m$ for 11 drivers $> m$
+1. Cumulative frequency $= 80 - 11 = 69$.
+2. Find $y = 69$ on the graph and read the corresponding $x$.
+    **$m \approx 4100\text{ km}$**.
+#### (g) Box-and-Whisker Diagram
+- **Endpoints:** Whiskers should go from $500$ to $6000$ km.
+- **Box:** Ends at $2200$ ($Q_1$) and $3600$ ($Q_3$).
+- **Median:** Vertical line inside the box at $2800$.
+---
