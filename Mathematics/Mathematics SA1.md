@@ -97,53 +97,28 @@ City B is $70\text{ km}$ from A on a bearing of $130^\circ$. City C is $40\text{
 (b)) If you wanted to travel rom city A directly to City C, find the bearing you would need to travel.
 (c)  Find the area enclosed by connecting the three cities in a triangle ABC.
 ?
-
 ### Error Analysis
-
 - **Data Transcription Error:** In the original attempt, the distance $BC$ was taken as $10$ instead of $40\text{ km}$ (as circled in the question). This led to an incorrect value for $AC$.
-    
 - **Angle Miscalculation:** The angle used in the Cosine Rule was $130^\circ$. However, $\angle ABC$ must be calculated using the geometry of parallel lines (North lines). The interior angle is actually $125^\circ$.
-    
 - **Bearing Logic:** For part (b), the bearing is not just the internal angle of the triangle; it is the clockwise angle from the North line at A to the line AC.
 ---
 ### Correct Solution
-
 #### (a) Find the distance $AC$
-
 First, calculate the included angle $\angle ABC$:
-
 - The bearing from A to B is $130^\circ$. By the property of parallel lines (alternate interior angles), the angle from B's South-to-North line back toward A is $180^\circ - 130^\circ = 50^\circ$.
-    
 - Adding the bearing from B to C ($75^\circ$): $\angle ABC = 50^\circ + 75^\circ = 125^\circ$.
-    
-
 Apply the **Cosine Rule**:
-
 $$AC^2 = 70^2 + 40^2 - 2(70)(40)\cos(125^\circ)$$
-
 $$AC^2 = 4900 + 1600 - 5600(-0.5735...)$$
-
 $$AC = \sqrt{9711.6...} \approx 98.5\text{ km}$$
-
 #### (b) Find the bearing from A to C
-
 Use the **Sine Rule** to find the internal angle $\angle BAC$ (let's call it $\alpha$):
-
-$$\frac{\sin \alpha}{40} = \frac{\sin 125^\circ}{98.5}$$
-
-$$\sin \alpha = \frac{40 \times \sin 125^\circ}{98.5} \approx 0.332...$$
-
+$$\frac{\sin \alpha}{40} = \frac{\sin 125^\circ}{98.5}$$$$\sin \alpha = \frac{40 \times \sin 125^\circ}{98.5} \approx 0.332...$$
 $$\alpha \approx 19.4^\circ$$
-
 The bearing from A to C is the original bearing to B minus this internal angle:
-
 $$\text{Bearing} = 130^\circ - 19.4^\circ = 110.6^\circ$$
-
 #### (c) Find the area of $\triangle ABC$
-
 Use the **Area Formula**: $\text{Area} = \frac{1}{2}ab\sin C$
-
 $$\text{Area} = \frac{1}{2}(70)(40)\sin(125^\circ)$$
-
 $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ---
