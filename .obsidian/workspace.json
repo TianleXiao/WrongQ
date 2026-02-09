@@ -37,12 +37,14 @@
             "id": "5b379db4131eb4ea",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw.md"
+                "file": "Mathematics/Mathematics SA1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-09 14.08.39.excalidraw"
+              "icon": "lucide-file",
+              "title": "Mathematics SA1"
             }
           }
         ],
@@ -224,8 +226,8 @@
   },
   "active": "5b379db4131eb4ea",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
     "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Mathematics/Mathematics SA1.md",
     "Physics/Physics SA1.md",
