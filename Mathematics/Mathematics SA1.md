@@ -167,3 +167,37 @@ $$f(0) \approx 1.478 - 4 = -2.522$$
 - **Table Mode:** Use the table function to find exact values for $x = -3, -2, -1, 0, 1, 2$ before sketching.
 - **Zero/Intercept Tools:** Use `Analyze Graph` -> `Zero` to find the $x$-intercept precisely.
 ---
+## Problem 7: Function Properties and Inequalities
+
+**Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2
+
+Consider $f(x) = 2^x - \frac{1}{2^x}$ for $x \in \mathbb{R}$.
+(a) Show that $f$ is an odd function.
+(b) Solve $f(x) \ge g(x)$ where $g(x) = \frac{x-1}{x^2 - 2x - 3}$.
+?
+
+---
+### Error Analysis
+- **Notation and Logic (Part a):** You correctly identified the symmetry, but the concluding statement "$f(x) = f(-x)$" describes an **even** function. For an **odd** function, you must show $f(-x) = -f(x)$.
+- **Inequality Boundary Errors (Part b):**
+    - **Asymptote Neglect:** When solving $f(x) \ge g(x)$, you must consider the vertical asymptotes of $g(x)$. The function $g(x)$ is undefined at $x = -1$ and $x = 3$.
+    - **Region Selection:** You missed the interval where the curve $f(x)$ is above $g(x)$ between the vertical asymptotes.    
+    - **Rounding:** The intersection point was written as $0.18$, but the exactness of the intervals is crucial in IB Paper 2.
+---
+### Correct Solution
+#### (a) Show that $f$ is an odd function
+To show a function is odd, we must prove $f(-x) = -f(x)$.
+1. Find $f(-x)$:    $$f(-x) = 2^{-x} - \frac{1}{2^{-x}} = \frac{1}{2^x} - 2^x$$
+2. Factor out a negative sign:
+    $$f(-x) = -(2^x - \frac{1}{2^x})$$
+3. Therefore:$$f(-x) = -f(x)$$
+    Hence, $f$ is an **odd function**.
+#### (b) Solve $f(x) \ge g(x)$
+1. **Identify Critical Values:**
+    - **Intersections (from GDC):** $x \approx -1.27, x \approx 0.183, x \approx 3.06$.
+    - **Vertical Asymptotes (of $g(x)$):** Solve $x^2 - 2x - 3 = 0 \implies (x-3)(x+1)=0$. So, $x = -1$ and $x = 3$.
+2. **Test Intervals:** Look at the graph to see where the line for $f(x)$ is "higher" than the curve for $g(x)$.
+3. **Solution Set:**    $$-1.27 \le x < -1 \quad \text{or} \quad 0.183 \le x < 3 \quad \text{or} \quad x \ge 3.06$$
+
+    _(Note: Use $<$ for asymptotes because the function is undefined there, and $\le$ for intersection points.)
+---
