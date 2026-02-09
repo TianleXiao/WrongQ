@@ -125,12 +125,13 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ## Problem 6: Exponential Functions and Graphing
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
+
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
 ![[Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw]]
 (b) Find the coordinates of:
-    (i) The $x$-intercept.
-    (ii) The $y$-intercept.
++ (i) The $x$-intercept.
++ (ii) The $y$-intercept.
 ?
 ### Error Analysis
 - **Domain Misinterpretation:** The sketch failed to respect the restricted domain $-3 \le x \le 2$. An IB "sketch" requires clear endpoints if a domain is specified.
