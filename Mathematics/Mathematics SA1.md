@@ -283,6 +283,13 @@ Read from $x = 2750$ up to the curve and across to the $y$-axis.
 - **Endpoints:** Whiskers should go from $500$ to $6000$ km.
 - **Box:** Ends at $2200$ ($Q_1$) and $3600$ ($Q_3$).
 - **Median:** Vertical line inside the box at $2800$.
+### GDC Strategy
+Python
+```
+# Use the List (Stat) editor to check your box plot parameters.
+# If you have the raw data, use 1-Variable Statistics to confirm:
+# Q1, Med, Q3, MinX, and MaxX.
+```
 ---
 ## Problem 10: Financial Mathematics (Loans and Sequences)
 
@@ -352,3 +359,61 @@ The balance at month 60 ($B_{60}$) becomes the "initial" amount for the next 60 
     Solve for $p$ using GDC:
     
     **$p \approx \$3,439$**.
+### GDC Tip
+Python
+```
+# For Financial Math, use the TVM Solver on GDC:
+# N = 120
+# I% = 4.66
+# PV = 480000
+# Pmt = -5000
+# FV = 0
+# P/Y = 12, C/Y = 12
+# Always set PV and Pmt with opposite signs (Cash In vs Cash Out).
+```
+---
+## Problem 11: Trigonometric Modeling (Tides)
+Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem Context:
+
+The height of water $H(t)$ in a harbour is modeled by $H(t) = a \sin(b(t - c)) + d$.
++ High tide: $6.8\text{ m}$ at 04:30.
++ Low tide: $2.2\text{ m}$ (occurs 6 hours after high tide).
++ Period: $12\text{ hours}$.
+?
+
+---
+### Error Analysis
+- **Period vs. $b$ Value:** A common error is setting $b = 12$. The parameter $b$ is related to the period by the formula $b = \frac{2\pi}{\text{Period}}$.
+- **Phase Shift ($c$) Confusion:** The value of $c$ represents a horizontal shift. Since the first _high tide_ occurs at $t = 4.5$, and a sine graph reaches its maximum at one-quarter of its period, $c$ is not simply $4.5$. You must account for the nature of the sine wave starting at its principal axis.
+- **Unit Consistency:** 04:30 must be converted to decimal hours ($4.5\text{ hours}$) before calculation.
+---
+### Correct Solution
+#### (a) Show that $b = \frac{\pi}{6}$
+The time between high tides is $12\text{ hours}$, so the Period $= 12$.
+$$b = \frac{2\pi}{12} = \frac{\pi}{6}$$
+#### (b) & (c) Find $a$ and $d$
+- **Amplitude ($a$):** $\frac{\text{Max} - \text{Min}}{2} = \frac{6.8 - 2.2}{2} = 2.3\text{ m}$.
+- **Vertical Shift ($d$):** $\frac{\text{Max} + \text{Min}}{2} = \frac{6.8 + 2.2}{2} = 4.5\text{ m}$.
+#### (d) Find the smallest possible value of $c$
+A sine wave reaches its maximum at $t = c + \frac{\text{Period}}{4}$.
+$$4.5 = c + \frac{12}{4} \implies 4.5 = c + 3$$
+$$c = 1.5$$
+#### (f) Hours over 24-hour period where $H(t) > 5$
+1. Solve $2.3 \sin(\frac{\pi}{6}(t - 1.5)) + 4.5 = 5$ using your GDC.
+2. The intersections in the first 12 hours are $t_1 \approx 1.916$ and $t_2 \approx 7.084$.
+3. Duration in one cycle $= 7.084 - 1.916 = 5.168\text{ hours}$.
+4. Over 24 hours (2 cycles): $5.168 \times 2 \approx 10.3\text{ hours}$.
+#### (h) Folkestone Harbour Equation
+High tides occur 50 minutes ($50/60 = 5/6\text{ hours}$) earlier. This is a horizontal shift to the left. New $c = 1.5 - \frac{5}{6} \approx 0.667$.
+$$H(t) = 2.3 \sin(\frac{\pi}{6}(t - 0.667)) + 4.5$$
+#### (i) Show $H(t) = a \sin(bt)\cos(bc) - a \cos(bt)\sin(bc) + d$
+Using the identity $\sin(A - B) = \sin A \cos B - \cos A \sin B$:$a \sin(b(t-c)) + d = a [\sin(bt)\cos(bc) - \cos(bt)\sin(bc)] + d$ 
+Distributing $a$ yields the required form.
+### GDC Strategy
+Python
+```
+# Use the Graph mode to plot H(t).
+# Use 'G-Solve' -> 'Intersection' with the line y = 5.
+# Ensure your calculator is in RADIAN mode for all trig modeling.
+```
+---
