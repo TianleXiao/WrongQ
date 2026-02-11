@@ -92,9 +92,6 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 **Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards #SectionA
 
 ![[5.jpg]]
-(a)  Find the distance from City A to C.
-(b)) If you wanted to travel rom city A directly to City C, find the bearing you would need to travel.
-(c)  Find the area enclosed by connecting the three cities in a triangle ABC.
 ?
 ### Error Analysis
 - **Data Transcription Error:** In the original attempt, the distance $BC$ was taken as $10$ instead of $40\text{ km}$ (as circled in the question). This led to an incorrect value for $AC$.
