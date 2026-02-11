@@ -366,10 +366,7 @@ Python
 ## Problem 11: Trigonometric Modeling (Tides)
 Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem Context:
 
-The height of water $H(t)$ in a harbour is modeled by $H(t) = a \sin(b(t - c)) + d$.
-+ High tide: $6.8\text{ m}$ at 04:30.
-+ Low tide: $2.2\text{ m}$ (occurs 6 hours after high tide).
-+ Period: $12\text{ hours}$.
+![[11.jpg]]![[11(2).jpg]]
 ?
 
 ---
