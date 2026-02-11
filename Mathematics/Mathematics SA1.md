@@ -126,6 +126,7 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
 #SectionA
+
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
 ![[Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw]]
@@ -240,6 +241,7 @@ The domain of the inverse is the range of the original function.
 ## Problem 8: Cumulative Frequency and Data Analysis
 
 **Tags:** #Statistics #CumulativeFrequency #BoxPlot #Quartiles #Paper2
+
 A study of 80 Uber drivers in San Francisco records the distance traveled in April. 
 (a) Find the number of drivers who traveled between $3200$ and $5000$ km. 
 (b) Find the median, lower quartile ($Q_1$), and upper quartile ($Q_3$). 

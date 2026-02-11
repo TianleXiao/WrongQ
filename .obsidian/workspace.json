@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Writing.md",
+                "file": "Mathematics/Mathematics SA1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writing"
+              "title": "Mathematics SA1"
             }
           }
         ],
@@ -224,15 +224,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "47ac9548deda43f8",
+  "active": "5b379db4131eb4ea",
   "lastOpenFiles": [
-    "English/Assets",
-    "Mathematics/Mathematics SA1.md",
-    "English/Writing.md",
-    "English",
+    "Mathematics/Assets/Pasted image 20260204212525.png",
     "Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
     "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
+    "English/Writing.md",
+    "English/Assets",
+    "Mathematics/Mathematics SA1.md",
+    "English",
     "Physics/Physics SA1.md",
     "2026-02-04.md",
     "Pasted image 20260204212458.png",
@@ -240,7 +241,6 @@
     "Mathematics/Assets",
     "Physics/Assets/Pasted image 20260131171528.png",
     "Physics/Assets/Pasted image 20260131171550.png",
-    "Mathematics/Assets/Pasted image 20260204212525.png",
     "Pasted image 20260204211925.png",
     "Pasted image 20260204211902.png",
     "Excalidraw/Drawing 2026-02-04 21.22.15.excalidraw.md",
@@ -254,7 +254,6 @@
     "Mathematics/Mathematics SA1",
     "Mathematics/Assets",
     "Mathematics",
-    "Physics/Assets",
-    "Physics"
+    "Physics/Assets"
   ]
 }
