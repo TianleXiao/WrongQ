@@ -242,15 +242,8 @@ The domain of the inverse is the range of the original function.
 
 **Tags:** #Statistics #CumulativeFrequency #BoxPlot #Quartiles #Paper2
 
-A study of 80 Uber drivers in San Francisco records the distance traveled in April. 
-(a) Find the number of drivers who traveled between $3200$ and $5000$ km. 
-(b) Find the median, lower quartile ($Q_1$), and upper quartile ($Q_3$). 
-(c) Find the Interquartile Range (IQR). 
-(d) Write down the percentage of drivers traveling more than $Q_3$. 
-(e) Find the number of drivers who traveled $\le 2750$ km. 
-(f) Find $m$ if 11 drivers traveled more than $m$ km. 
-(g) Draw a box-and-whisker diagram.
-
+![[9.jpg]]
+![[9 (2).jpg]]
 ?
 ### Error Analysis
 - **Graph Reading Precision:** On cumulative frequency curves, small deviations in reading the $x$-axis lead to significant errors in the frequency ($y$-axis). For example, in part (e), $2750$ km must be mapped precisely to the curve.
