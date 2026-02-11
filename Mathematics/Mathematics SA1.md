@@ -289,10 +289,7 @@ Python
 
 **Tags:** #Finance #GeometricSequences #Loans #Amortization #GDC #Paper2
 
-Jane borrows $\$480,000$ for $10$ years at $r\%$ interest p.a. compounded monthly.
-- Initial debt: $A = \$480,000$
-- Monthly repayment: $p$
-- Monthly interest factor: $k = 1 + \frac{r}{1200}$
+![[10.jpg]]
 ?
 
 ### Error Analysis
