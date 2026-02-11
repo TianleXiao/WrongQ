@@ -250,6 +250,7 @@ A study of 80 Uber drivers in San Francisco records the distance traveled in Apr
 (e) Find the number of drivers who traveled $\le 2750$ km. 
 (f) Find $m$ if 11 drivers traveled more than $m$ km. 
 (g) Draw a box-and-whisker diagram.
+
 ?
 ### Error Analysis
 - **Graph Reading Precision:** On cumulative frequency curves, small deviations in reading the $x$-axis lead to significant errors in the frequency ($y$-axis). For example, in part (e), $2750$ km must be mapped precisely to the curve.

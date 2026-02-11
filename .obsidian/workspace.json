@@ -37,12 +37,14 @@
             "id": "5b379db4131eb4ea",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Mathematics/Assets/9.jpg"
+                "file": "Mathematics/Mathematics SA1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "9"
+              "icon": "lucide-file",
+              "title": "Mathematics SA1"
             }
           }
         ],
@@ -224,13 +226,14 @@
   },
   "active": "5b379db4131eb4ea",
   "lastOpenFiles": [
+    "Mathematics/Assets/9.jpg",
+    "Mathematics/Assets/9 (2).jpg",
+    "Mathematics/Assets/10.jpg",
+    "Mathematics/Assets/11(2).jpg.~tmp",
     "Mathematics/Assets/11.jpg.~tmp",
     "Mathematics/Assets/10.jpg.~tmp",
     "Mathematics/Assets/9.jpg.~tmp",
-    "Mathematics/Assets/9 (2).jpg",
-    "Mathematics/Assets/10.jpg",
     "Mathematics/Mathematics SA1.md",
-    "Mathematics/Assets/9.jpg",
     "Mathematics/Assets/11(2).jpg",
     "Mathematics/Assets/11.jpg",
     "Mathematics/Assets/Pasted image 20260204212525.png",
@@ -252,8 +255,6 @@
     "Mathematics/Assets/Drawing 2026-02-04 21.11.05.excalidraw.pdf",
     "Excalidraw",
     "Mathematics/Assets",
-    "README.md",
-    "Mathematics/Mathematics SA1",
-    "Mathematics/Assets"
+    "README.md"
   ]
 }
