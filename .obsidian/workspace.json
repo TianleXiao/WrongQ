@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "85e3972618fffb87",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-09 13.53.43.excalidraw"
-            }
-          },
-          {
             "id": "5b379db4131eb4ea",
             "type": "leaf",
             "state": {
@@ -48,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
