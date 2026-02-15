@@ -195,6 +195,7 @@ To show a function is odd, we must prove $f(-x) = -f(x)$.
 3. **Solution Set:**    $$-1.27 \le x < -1 \quad \text{or} \quad 0.183 \le x < 3 \quad \text{or} \quad x \ge 3.06$$
     _(Note: Use $<$ for asymptotes because the function is undefined there, and $\le$ for intersection points.)
 ---
+
 ## Problem 7: Composite and Inverse Functions
 
 **Tags:** #Functions #InverseFunctions #RangeAndDomain #Trigonometry #GDC #Paper2 #SectionA
