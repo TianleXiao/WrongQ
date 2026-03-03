@@ -596,3 +596,46 @@ $$A - B = \arctan\left(\frac{p - q}{1 + pq}\right)$$
 Substitute back the original definitions of $A$ and $B$:
 $$\arctan p - \arctan q = \arctan\left(\frac{p - q}{1 + pq}\right)$$
 ---
+
+## Problem 10: Set Theory and Venn Diagrams
+**Tags:** #Sets #VennDiagrams #Probability #Logic #MathAAHL #Paper1
+
+This problem involves a class of 20 students categorized by age (17 or 18) and transportation method (Walk or Train). The information is represented in a Venn diagram where $S$ represents 17-year-olds and $E$ represents 18-year-olds.
+?
+### Error Analysis
+- **Interpreting Region (iii) (Part a):** You wrote $c + e = 8$. However, the problem states "8 eighteen year olds either walk or take the train to school." Looking at the diagram, the 18-year-olds ($E$) who walk or take the train are represented by regions $c$ and $e$. While your equation $c + e = 8$ is correct based on that specific sentence, you likely missed that this is a system of equations where total set values must be balanced.
+- **Algebraic Manipulation (Part b/c):** Your scribbles show $2e = 4 \Rightarrow e = 2$. While $e$ does eventually equal 2, the derivation path shown in the margins is a bit disorganized, making it easy to lose track of the "Total Students" constraint ($n(U) = 20$).
+- **Probability Calculation (Part e):** You wrote $\frac{2}{20}$, which looks like the probability for a single student. The question asks for the probability that **two** students selected at random both use the same method. This requires considering multiple scenarios (both Walk, both Train, or both Cycle) and using combinations or sequential probability without replacement.
+---
+### Correct Solution
+#### (a) Write down the value of:
+- **(i) $b + c = 10$**: These are all students who walk ($W$).
+- **(ii) $d + e = 5$**: These are all students who take the train ($T$).
+- **(iii) $c + e = 8$**: These are 18-year-olds ($E$) who either walk or take the train.
+#### (b) Find a further three equations:
+1. **Total students:** $a + b + c + d + e + f = 20$.
+2. **17-year-olds total:** $a + b + d = 8$.
+3. **18-year-olds total:** $c + e + f = 12$.
+#### (c) Show that $a = 1$ and $f = 4$:
+Subtract the equation from (a)(iii) from the 18-year-old total:
+$(c + e + f) - (c + e) = 12 - 8 \Rightarrow f = 4$.
+Since $n(S) = 8$ and $n(E) = 12$, and $n(S \cup E) = 20$, there is no overlap between $S$ and $E$.
+Using the total sum: $(a+b+d) + (c+e+f) = 8 + 12 = 20$.
+Substitute $b+d = (b+c+d+e) - (c+e) = (10+5) - 8 = 7$.
+$a + 7 = 8 \Rightarrow a = 1$.
+#### (d) Find the values of $b, c, d, e$:
+We are given: "18-year-olds who walk ($c$) is three times 18-year-olds who take the train ($e$)."
+1. $c = 3e$
+2. Substitute into (a)(iii): $3e + e = 8 \Rightarrow 4e = 8 \Rightarrow \mathbf{e = 2}$.
+3. Then $\mathbf{c = 6}$.
+4. From (a)(i): $b + 6 = 10 \Rightarrow \mathbf{b = 4}$.
+5. From (a)(ii): $d + 2 = 5 \Rightarrow \mathbf{d = 3}$.
+#### (e) Probability both use the same method:
+First, find the number of students for each method:
+- **Walk ($W$):** $b + c = 10$
+- **Train ($T$):** $d + e = 5$
+- **Cycle ($C$):** $a + f = 1 + 4 = 5$ (those who don't walk or take train)
+$P(\text{Same}) = P(WW) + P(TT) + P(CC)$
+$$P = \left(\frac{10}{20} \times \frac{9}{19}\right) + \left(\frac{5}{20} \times \frac{4}{19}\right) + \left(\frac{5}{20} \times \frac{4}{19}\right)$$
+$$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac{13}{38}$$
+---
