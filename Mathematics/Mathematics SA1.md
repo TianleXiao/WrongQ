@@ -494,3 +494,35 @@ Given $32x^3 - 144x^2 + 214x - 105 = 0$:
         **The roots are $1.25, 1.5,$ and $1.75$.**
 ---
 
+## Problem 7: Trigonometry and the Cosine Rule
+**Tags:** #Trigonometry #CosineRule #SpecialAngles #Surds #IBMathAA #Paper1
+
+(a) Expand and simplify $(1+\sqrt{3})^2$.
+(b) By writing $75^\circ$ as $30^\circ + 45^\circ$, find the value of $\cos 75^\circ$.
+(c) In triangle $ABC$, $BC = \sqrt{6}$, $CA = 2$, and $A\hat{C}B = 75^\circ$. Find $AB$ in the form $a + \sqrt{b}$ where $a, b \in \mathbb{Z}$.
+?
+### Error Analysis
+- **Binomial Expansion (Part a):** The student incorrectly expanded $(1+\sqrt{3})^2$ as $1 + 2\sqrt{3} + 9$. The square of $\sqrt{3}$ is $3$, not $9$. This fundamental error in surd simplification affected the final answer in Part (c).
+- **Exact Values (Part b):** While the student correctly used the compound angle identity $\cos(A+B) = \cos A \cos B - \sin A \sin B$, they encountered difficulties in the final simplification. However, the logic here was generally sound compared to the other sections.
+- **Law of Cosines Application (Part c):** The student correctly identified the formula $c^2 = a^2 + b^2 - 2ab \cos C$. However, the substitution of the incorrect expansion from Part (a) led to an expression that could not be easily simplified into the required $a + \sqrt{b}$ format.
+- **Simplifying Double Radicals:** The student reached a point involving $\sqrt{4 + 2\sqrt{3}}$ but struggled to realize that this is the square root of $(1+\sqrt{3})^2$, which would have reverted the answer to a simpler form.
+---
+### Correct Solution
+#### (a) Expand and simplify $(1+\sqrt{3})^2$
+1. Use the identity $(p+q)^2 = p^2 + 2pq + q^2$.
+2. $(1)^2 + 2(1)(\sqrt{3}) + (\sqrt{3})^2 = 1 + 2\sqrt{3} + 3$.
+3. **Result:** $4 + 2\sqrt{3}$.
+#### (b) Find the value of $\cos 75^\circ$
+1. $\cos(30^\circ + 45^\circ) = \cos 30^\circ \cos 45^\circ - \sin 30^\circ \sin 45^\circ$.
+2. Substitute exact values: $\left(\frac{\sqrt{3}}{2}\right)\left(\frac{\sqrt{2}}{2}\right) - \left(\frac{1}{2}\right)\left(\frac{\sqrt{2}}{2}\right)$.
+3. **Result:** $\frac{\sqrt{6} - \sqrt{2}}{4}$.
+#### (c) Find $AB$ in the form $a + \sqrt{b}$
+1. **Apply Cosine Rule:**
+    $$AB^2 = 2^2 + (\sqrt{6})^2 - 2(2)(\sqrt{6}) \cos 75^\circ$$
+2. **Substitute values:**
+    $$AB^2 = 4 + 6 - 4\sqrt{6} \left(\frac{\sqrt{6} - \sqrt{2}}{4}\right)$$
+3. **Simplify the expression:**$$AB^2 = 10 - \sqrt{6}(\sqrt{6} - \sqrt{2})$$$$AB^2 = 10 - (6 - \sqrt{12})$$$$AB^2 = 10 - 6 + 2\sqrt{3} = 4 + 2\sqrt{3}$$
+4. **Find $AB$:**
+    From part (a), we know $4 + 2\sqrt{3} = (1+\sqrt{3})^2$.$$AB = \sqrt{(1+\sqrt{3})^2}$$
+    **$AB = 1 + \sqrt{3}$** (where $a=1, b=3$).
+---
