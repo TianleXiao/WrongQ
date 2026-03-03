@@ -600,7 +600,7 @@ $$\arctan p - \arctan q = \arctan\left(\frac{p - q}{1 + pq}\right)$$
 ## Problem 10: Set Theory and Venn Diagrams
 **Tags:** #Sets #VennDiagrams #Probability #Logic #MathAAHL #Paper1
 
-This problem involves a class of 20 students categorized by age (17 or 18) and transportation method (Walk or Train). The information is represented in a Venn diagram where $S$ represents 17-year-olds and $E$ represents 18-year-olds.
+![[2f059bc9912a53005d2662d360151d81.jpg]]
 ?
 ### Error Analysis
 - **Interpreting Region (iii) (Part a):** You wrote $c + e = 8$. However, the problem states "8 eighteen year olds either walk or take the train to school." Looking at the diagram, the 18-year-olds ($E$) who walk or take the train are represented by regions $c$ and $e$. While your equation $c + e = 8$ is correct based on that specific sentence, you likely missed that this is a system of equations where total set values must be balanced.
