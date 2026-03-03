@@ -402,3 +402,42 @@ Python
 # Ensure your calculator is in RADIAN mode for all trig modeling.
 ```
 ---
+# Problem 3: Quadratic Properties and Coefficients
+**Tags:** #QuadraticFunctions #Symmetry #Intercepts #VertexForm #IBMathAA #Paper1 #Flashcards 
+
+Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{Z}$. The graph of $f$ has a local minimum when $x = 2.5$. The distance between the two $x$-intercepts of the graph of $f$ is $7$.
+(a) Find the coordinates of the two $x$-intercepts.
+(b) Find the value of $b$ and the value of $c$.
+?
+
+---
+### Error Analysis
+- **Symmetry Misinterpretation (Part a):** A common mistake is failing to realize that for a quadratic $ax^2 + bx + c$, the local minimum (the vertex) always lies exactly on the axis of symmetry. If the distance between intercepts is $7$, they must be spread equally ($3.5$ units each) from the line $x = 2.5$. Calculating the distance from the origin instead of the symmetry axis leads to incorrect coordinates.
+- **Sign Errors in Expansion (Part b):** When using the factored form $f(x) = (x - p)(x - q)$, students often confuse the signs. For an intercept at $x = -1$, the factor is $(x + 1)$. Expanding $(x + 1)(x - 6)$ incorrectly (e.g., getting $+5x$ instead of $-5x$) results in the wrong value for $b$.
+- **Coefficient Comparison:** Some may forget that the lead coefficient $a$ is given as $1$. If $a$ were different, the relationship between the roots and $c$ would involve a multiplier ($c = a \cdot x_1 \cdot x_2$).
+- **Vieta’s Formulas Confusion:** Forgetting that the sum of roots $x_1 + x_2 = -b/a$. If a student simply adds the roots ($5$) and forgets the negative sign, they incorrectly conclude $b = 5$.
+---
+### Correct Solution
+#### (a) Find the coordinates of the two $x$-intercepts
+1. **Identify Symmetry:** The local minimum at $x = 2.5$ implies the axis of symmetry is $x = 2.5$.
+2. **Apply Distance:** The distance between intercepts is $7$. Therefore, the intercepts are located $3.5$ units to the left and right of the axis of symmetry ($7 \div 2 = 3.5$).
+3. **Calculate Coordinates:**
+    - $x_1 = 2.5 - 3.5 = -1$
+    - $x_2 = 2.5 + 3.5 = 6$
+    - **The coordinates are $(-1, 0)$ and $(6, 0)$.**
+#### (b) Find the value of $b$ and the value of $c$
+**Method 1: Factored Form Expansion**
+1. Using the intercepts found in part (a) and knowing the coefficient of $x^2$ is $1$:
+    $$f(x) = (x - (-1))(x - 6)$$
+    $$f(x) = (x + 1)(x - 6)$$
+2. **Expand the expression:**    $$f(x) = x^2 - 6x + x - 6$$$$f(x) = x^2 - 5x - 6$$
+3. **Identify coefficients:**
+    - **$b = -5$**
+    - **$c = -6$**
+**Method 2: Vertex/Symmetry Formula**
+4. The axis of symmetry is given by $x = -\frac{b}{2a}$. Given $x = 2.5$ and $a = 1$:
+    $$2.5 = -\frac{b}{2(1)} \implies b = -5$$
+5. Substitute one intercept, e.g., $(-1, 0)$, into the function $f(x) = x^2 - 5x + c$:
+    $$0 = (-1)^2 - 5(-1) + c$$
+    $$0 = 1 + 5 + c \implies c = -6$$
+---

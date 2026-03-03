@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Mathematics/Mathematics SA1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -212,8 +212,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47ac9548deda43f8",
+  "active": "5b379db4131eb4ea",
   "lastOpenFiles": [
+    "Physics/Physics SA1.md",
+    "Physics/Assets/Pasted image 20260131171550.png",
+    "Physics/Assets/Pasted image 20260131171528.png",
+    "README.md",
     "Mathematics/Mathematics SA1.md",
     "Mathematics/Assets/Pasted image 20260204212525.png",
     "Mathematics/Assets/5.jpg.~tmp",
@@ -233,16 +237,12 @@
     "English/Writing.md",
     "English/Assets",
     "English",
-    "Physics/Physics SA1.md",
     "2026-02-04.md",
     "Pasted image 20260204212458.png",
-    "Pasted image 20260204212449.png",
     "Mathematics/Assets",
-    "Physics/Assets/Pasted image 20260131171528.png",
     "Excalidraw/Drawing 2026-02-04 21.22.15.excalidraw.md",
     "Excalidraw/Drawing 2026-02-04 21.15.17.excalidraw.md",
     "Mathematics/Assets/Drawing 2026-02-04 21.11.05.excalidraw.pdf",
-    "Excalidraw",
-    "README.md"
+    "Excalidraw"
   ]
 }
