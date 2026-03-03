@@ -499,7 +499,7 @@ Given $32x^3 - 144x^2 + 214x - 105 = 0$:
 
 (a) Expand and simplify $(1+\sqrt{3})^2$.
 (b) By writing $75^\circ$ as $30^\circ + 45^\circ$, find the value of $\cos 75^\circ$.
-(c) In triangle $ABC$, $BC = \sqrt{6}$, $CA = 2$, and $A\hat{C}B = 75^\circ$. Find $AB$ in the form $a + \sqrt{b}$ where $a, b \in \mathbb{Z}$.
+(c) In triangle $ABC$, $BC = \sqrt{6}$, $CA = 2$, and $A\hat{C}B = 75^\circ$. Find $AB$ in the form $a + \sqrt{b}$ where $a, b \in \mathbb{Z}$.![[Excalidraw/Drawing 2026-03-03 17.43.25.excalidraw]]
 ?
 ### Error Analysis
 - **Binomial Expansion (Part a):** The student incorrectly expanded $(1+\sqrt{3})^2$ as $1 + 2\sqrt{3} + 9$. The square of $\sqrt{3}$ is $3$, not $9$. This fundamental error in surd simplification affected the final answer in Part (c).
@@ -639,3 +639,4 @@ $P(\text{Same}) = P(WW) + P(TT) + P(CC)$
 $$P = \left(\frac{10}{20} \times \frac{9}{19}\right) + \left(\frac{5}{20} \times \frac{4}{19}\right) + \left(\frac{5}{20} \times \frac{4}{19}\right)$$
 $$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac{13}{38}$$
 ---
+
