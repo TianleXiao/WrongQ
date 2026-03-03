@@ -350,7 +350,6 @@ Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem Con
 
 ![[11.jpg]]![[11(2).jpg]]
 ?
-
 ### Error Analysis
 - **Period vs. $b$ Value:** A common error is setting $b = 12$. The parameter $b$ is related to the period by the formula $b = \frac{2\pi}{\text{Period}}$.
 - **Phase Shift ($c$) Confusion:** The value of $c$ represents a horizontal shift. Since the first _high tide_ occurs at $t = 4.5$, and a sine graph reaches its maximum at one-quarter of its period, $c$ is not simply $4.5$. You must account for the nature of the sine wave starting at its principal axis.
