@@ -640,3 +640,8 @@ $$P = \left(\frac{10}{20} \times \frac{9}{19}\right) + \left(\frac{5}{20} \times
 $$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac{13}{38}$$
 ---
 
+## Problem 11: Rational Functions and Asymptotes
+**Tags:** #Functions #RationalFunctions #Asymptotes #Calculus #IBMathAAHL #Paper1
+
+Let $f(x) = \frac{x^2 - 4x + 4}{x - 1}$. This problem explores the behavior of a rational function, including its intercepts, various types of asymptotes, and the range of values the function cannot take.
+?
