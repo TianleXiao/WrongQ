@@ -409,8 +409,6 @@ Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{
 (a) Find the coordinates of the two $x$-intercepts.
 (b) Find the value of $b$ and the value of $c$.
 ?
-
----
 ### Error Analysis
 - **Symmetry Misinterpretation (Part a):** A common mistake is failing to realize that for a quadratic $ax^2 + bx + c$, the local minimum (the vertex) always lies exactly on the axis of symmetry. If the distance between intercepts is $7$, they must be spread equally ($3.5$ units each) from the line $x = 2.5$. Calculating the distance from the origin instead of the symmetry axis leads to incorrect coordinates.
 - **Sign Errors in Expansion (Part b):** When using the factored form $f(x) = (x - p)(x - q)$, students often confuse the signs. For an intercept at $x = -1$, the factor is $(x + 1)$. Expanding $(x + 1)(x - 6)$ incorrectly (e.g., getting $+5x$ instead of $-5x$) results in the wrong value for $b$.
