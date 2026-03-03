@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Mathematics/Mathematics SA1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -212,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47ac9548deda43f8",
+  "active": "cc94e4f374917ef1",
   "lastOpenFiles": [
     "Mathematics/Mathematics SA1.md",
     "Mathematics/Assets/Pasted image 20260204212525.png",
