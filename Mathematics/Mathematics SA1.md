@@ -564,3 +564,35 @@ A coed soccer team consists of 2 boys and 3 girls. They are standing in a line p
 3. Choose 2 slots for the boys and arrange them: $^4P_2 = 4 \times 3 = 12$ ways.
 4. **Total:** $6 \times 12 = \mathbf{72}$.
 ---
+
+## Problem 9: Transformations and Trigonometric Identities
+**Tags:** #Functions #Transformations #Trigonometry #InverseTrig #MathAAHL #Paper1 #Flashcards 
+
+The following diagram shows the graph of $y = \arctan(2x - 3) + \frac{3\pi}{4}$ for $x \in \mathbb{R}$, with asymptotes at $y = \frac{\pi}{4}$ and $y = \frac{5\pi}{4}$.
+**(a)** Describe a sequence of transformations that transforms the graph of $y = \arctan x$ to the graph of $y = \arctan(2x - 3) + \frac{3\pi}{4}$ for $x \in \mathbb{R}$.
+**(b)** Show that $\arctan p - \arctan q \equiv \arctan\left(\frac{p - q}{1 + pq}\right)$.
+?
+### Error Analysis
+- **Transformation Order (Part a):** You identified a "vertical sketch" (likely meaning stretch) of factor 2. However, the multiplier $2$ is _inside_ the function argument $(2x - 3)$, which indicates a **horizontal stretch/compression**, not vertical. Furthermore, the horizontal shift must be factored out as $2(x - 1.5)$ to see the correct translation of $1.5$ units.
+- **Terminology (Part a):** The note "move $3$ units to the right" is incorrect because the horizontal compression affects the shift. The note "move $\frac{3\pi}{4}$ units to the upwards" is conceptually correct but was marked wrong likely due to the previous errors compounding.
+- **Proof Logic (Part b):** Your attempt used $\arcsin$ and $\arccos$ expansions. While $\sin(A-B)$ and $\cos(A-B)$ formulas exist, the most direct way to prove an identity involving $\arctan$ is to use the tangent subtraction formula: $\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$.
+---
+### Correct Solution
+#### (a) Describe a sequence of transformations
+To identify the horizontal transformations correctly, we factor the inner expression:
+$$y = \arctan(2(x - 1.5)) + \frac{3\pi}{4}$$
+The transformations from $y = \arctan x$ are:
+1. **Horizontal Stretch** (or compression) by a scale factor of $\frac{1}{2}$ parallel to the x-axis.
+2. **Translation** by the vector $\begin{pmatrix} 1.5 \\ \frac{3\pi}{4} \end{pmatrix}$ (or "right by $1.5$ units and up by $\frac{3\pi}{4}$ units").
+#### (b) Show that $\arctan p - \arctan q \equiv \arctan\left(\frac{p - q}{1 + pq}\right)$
+Let $A = \arctan p$ and $B = \arctan q$. This implies:
+$\tan A = p$ and $\tan B = q$.
+Using the compound angle formula for tangent:
+$$\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$$
+Substitute $p$ and $q$ into the formula:
+$$\tan(A - B) = \frac{p - q}{1 + pq}$$
+Take the arctangent of both sides:
+$$A - B = \arctan\left(\frac{p - q}{1 + pq}\right)$$
+Substitute back the original definitions of $A$ and $B$:
+$$\arctan p - \arctan q = \arctan\left(\frac{p - q}{1 + pq}\right)$$
+---
