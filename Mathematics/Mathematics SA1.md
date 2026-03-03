@@ -641,7 +641,7 @@ $$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac
 ---
 
 ## Problem 11: Rational Functions and Asymptotes
-**Tags:** #Functions #RationalFunctions #Asymptotes #Calculus #IBMathAAHL #Paper1
+**Tags:** #Functions #RationalFunctions #Asymptotes #Calculus #IBMathAAHL #Paper1 #Flashcards 
 
 ![[4535c794cd7c1349a9e73ab87422c6d3.jpg]]
 ?
@@ -680,4 +680,42 @@ This inequality holds for $-4 < k < 0$.
 - One branch stays below $y = -4$ (turning point at $(0, -4)$).
 - One branch stays above $y = 0$ (turning point at $(2, 0)$).
 - The region $-4 < y < 0$ is empty.
+---
+
+## Problem 12: Trigonometric Identities and Cubic Equations
+**Tags:** #Trigonometry #CubicFunctions #VietaFormulas #RootsOfEquations #MathAAHL #Paper1 #Flashcards 
+
+![[01eb88622da3c0f7b697556414555d2c.jpg]]
+?
+### Error Analysis
+- **Triple Angle Identity (Part a):** You correctly identified the final form $\cos(3\theta) = 4\cos^3\theta - 3\cos\theta$ in your notes, but a formal proof requires using the compound angle formulas: $\cos(2\theta + \theta) = \cos(2\theta)\cos\theta - \sin(2\theta)\sin\theta$.
+- **Root Verification (Part b):** The "Hence" implies using the identity from (a). If $x = \cos k$, then $f(\cos k) = 4\cos^3 k - 3\cos k - \cos(3k)$. By the identity, $4\cos^3 k - 3\cos k = \cos(3k)$, so the expression becomes $\cos(3k) - \cos(3k) = 0$, proving it is a root.
+- **Relationship Between Roots (Part c/d):** For a cubic equation $ax^3 + bx^2 + cx + d = 0$, Vieta's formulas state that the sum of roots is $-b/a$. In $f(x) = 4x^3 - 3x - \cos(3k)$, the $x^2$ term is missing ($b=0$), meaning the sum of all three roots ($\alpha + \beta + \cos k$) must be $0$. Your notes didn't explicitly show this connection to solve for $\beta$ in terms of $\alpha$ and $\cos k$.
+- **Discriminant and Number of Roots (Part f):** The condition for a cubic to have exactly 2 distinct roots (one single and one repeated) is that its local maximum or minimum must lie exactly on the x-axis. This occurs when the "constant" part of the function aligns with the extremal values of the oscillating part $4x^3 - 3x$.
+---
+### Correct Solution
+#### (a) Show that $\cos(3\theta) = 4\cos^3\theta - 3\cos\theta$
+$$\cos(3\theta) = \cos(2\theta + \theta) = \cos(2\theta)\cos\theta - \sin(2\theta)\sin\theta$$
+Substitute $\cos(2\theta) = 2\cos^2\theta - 1$ and $\sin(2\theta) = 2\sin\theta\cos\theta$:
+$$= (2\cos^2\theta - 1)\cos\theta - (2\sin\theta\cos\theta)\sin\theta$$
+$$= 2\cos^3\theta - \cos\theta - 2\sin^2\theta\cos\theta$$
+Substitute $\sin^2\theta = 1 - \cos^2\theta$:
+$$= 2\cos^3\theta - \cos\theta - 2(1 - \cos^2\theta)\cos\theta$$
+$$= 2\cos^3\theta - \cos\theta - 2\cos\theta + 2\cos^3\theta = 4\cos^3\theta - 3\cos\theta$$
+#### (b) Verify that $\cos k$ is a root of $f(x)$
+$$f(\cos k) = 4\cos^3 k - 3\cos k - \cos(3k)$$
+From part (a), $4\cos^3 k - 3\cos k = \cos(3k)$.
+Therefore, $f(\cos k) = \cos(3k) - \cos(3k) = 0$.
+#### (c) Find $\alpha\beta$ and show $\beta = -\alpha - \cos k$
+Using Vieta's formulas for $4x^3 + 0x^2 - 3x - \cos(3k) = 0$:
+1. **Sum of roots:** $\alpha + \beta + \cos k = -\frac{0}{4} = 0 \Rightarrow \beta = -\alpha - \cos k$.
+2. **Product of roots:** $\alpha \cdot \beta \cdot \cos k = \frac{\cos(3k)}{4} \Rightarrow \alpha\beta = \frac{\cos(3k)}{4\cos k}$.
+#### (f) Find values of $k$ for 2 distinct roots
+For $f(x)$ to have a repeated root, the local extrema of $y = 4x^3 - 3x$ must be shifted by $\cos(3k)$ to touch the x-axis.
+Find stationary points of $g(x) = 4x^3 - 3x$:
+$g'(x) = 12x^2 - 3 = 0 \Rightarrow x^2 = \frac{1}{4} \Rightarrow x = \pm \frac{1}{2}$.
+The $y$-values at these points are $g(\frac{1}{2}) = 4(\frac{1}{8}) - \frac{3}{2} = -1$ and $g(-\frac{1}{2}) = 1$.
+So, we need $\cos(3k) = 1$ or $\cos(3k) = -1$.
+- $3k = n\pi \Rightarrow k = \frac{n\pi}{3}$ for $n \in \{0, 1, 2, 3, 4, 5, 6\}$.
+    **Values:** $k = 0, \frac{\pi}{3}, \frac{2\pi}{3}, \pi, \frac{4\pi}{3}, \frac{5\pi}{3}, 2\pi$.
 ---

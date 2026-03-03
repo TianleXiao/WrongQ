@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Problem",
+                "query": "paper2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,6 +214,8 @@
   "lastOpenFiles": [
     "Physics/Physics SA1.md",
     "Mathematics/Mathematics SA1.md",
+    "Mathematics/Assets/01eb88622da3c0f7b697556414555d2c.jpg.~tmp",
+    "Mathematics/Assets/01eb88622da3c0f7b697556414555d2c.jpg",
     "Mathematics/Assets/4535c794cd7c1349a9e73ab87422c6d3.jpg.~tmp",
     "Mathematics/Assets/4535c794cd7c1349a9e73ab87422c6d3.jpg",
     "Excalidraw/Drawing 2026-03-03 17.43.25.excalidraw.md",
@@ -235,12 +237,10 @@
     "Mathematics/Assets/11.jpg.~tmp",
     "Mathematics/Assets/10.jpg.~tmp",
     "Mathematics/Assets/9.jpg.~tmp",
-    "Mathematics/Assets/11(2).jpg",
     "English/Writing.md",
     "English/Assets",
     "English",
     "2026-02-04.md",
-    "Mathematics/Assets",
     "Excalidraw/Drawing 2026-02-04 21.22.15.excalidraw.md",
     "Excalidraw/Drawing 2026-02-04 21.15.17.excalidraw.md"
   ]
