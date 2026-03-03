@@ -643,7 +643,7 @@ $$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac
 ## Problem 11: Rational Functions and Asymptotes
 **Tags:** #Functions #RationalFunctions #Asymptotes #Calculus #IBMathAAHL #Paper1
 
-Let $f(x) = \frac{x^2 - 4x + 4}{x - 1}$. This problem explores the behavior of a rational function, including its intercepts, various types of asymptotes, and the range of values the function cannot take.
+![[4535c794cd7c1349a9e73ab87422c6d3.jpg]]
 ?
 ### Error Analysis
 - **Long Division Calculation (Part b-ii):** Your long division shows $(x^2 - 4x + 4) \div (x - 1) = x - 3$ with a remainder of $1$. While the division steps were mostly correct, you missed that the constant term in the numerator is $4$. $x(x-1) = x^2 - x$, leaving $-3x + 4$. Then $-3(x-1) = -3x + 3$. The remainder is $4 - 3 = 1$. The oblique asymptote is the quotient part of this division.
@@ -676,11 +676,8 @@ This inequality holds for $-4 < k < 0$.
 - **(ii) $f(x) = 0$**: Already solved in part (a), $x = 2$.
     These represent the $x$-coordinates of the local maximum and minimum points.
 #### (e) Sketch the graph
-
 - The graph has two branches.
-    
 - One branch stays below $y = -4$ (turning point at $(0, -4)$).
-    
 - One branch stays above $y = 0$ (turning point at $(2, 0)$).
-    
 - The region $-4 < y < 0$ is empty.
+---
