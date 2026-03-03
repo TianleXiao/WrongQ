@@ -645,3 +645,42 @@ $$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac
 
 Let $f(x) = \frac{x^2 - 4x + 4}{x - 1}$. This problem explores the behavior of a rational function, including its intercepts, various types of asymptotes, and the range of values the function cannot take.
 ?
+### Error Analysis
+- **Long Division Calculation (Part b-ii):** Your long division shows $(x^2 - 4x + 4) \div (x - 1) = x - 3$ with a remainder of $1$. While the division steps were mostly correct, you missed that the constant term in the numerator is $4$. $x(x-1) = x^2 - x$, leaving $-3x + 4$. Then $-3(x-1) = -3x + 3$. The remainder is $4 - 3 = 1$. The oblique asymptote is the quotient part of this division.
+- **Finding the "Gap" in Range (Part c):** You attempted to solve for $k$ where $y=k$ does not intercept the graph. This requires setting the function equal to $k$ and finding the values of $k$ for which the resulting quadratic has no real roots (discriminant $\Delta < 0$).
+- **Graph Sketching (Part e):** Without the correct oblique asymptote and the values of $a$ and $b$ (the local maximum and minimum $y$-values), the sketch would lack the necessary boundaries to show where the function exists and where the "gap" is located.
+---
+### Correct Solution
+#### (a) Solve $f(x) = 0$
+The function is zero when the numerator is zero:
+$x^2 - 4x + 4 = 0 \Rightarrow (x - 2)^2 = 0$.
+**Solution:** $x = 2$.
+#### (b) Determine the equations of the asymptotes
+- **(i) Vertical Asymptote:** Occurs where the denominator is zero.
+    **Equation:** $x = 1$.
+- **(ii) Oblique Asymptote:** Perform long division:
+    $f(x) = (x - 3) + \frac{1}{x - 1}$
+    As $x \to \infty$, $\frac{1}{x-1} \to 0$.
+    **Equation:** $y = x - 3$.
+#### (c) Determine the values of $a$ and $b$
+Set $f(x) = k$ and solve for $x$:
+$\frac{x^2 - 4x + 4}{x - 1} = k \Rightarrow x^2 - 4x + 4 = kx - k$
+$x^2 - (4 + k)x + (4 + k) = 0$.
+For no intersection, the discriminant $\Delta < 0$:
+$\Delta = (4 + k)^2 - 4(1)(4 + k) < 0$
+$(4 + k)(4 + k - 4) < 0 \Rightarrow k(k + 4) < 0$.
+This inequality holds for $-4 < k < 0$.
+**Values:** $a = -4, b = 0$.
+#### (d) Solve the equations
+- **(i) $f(x) = -4$**: $x^2 - (4 - 4)x + (4 - 4) = 0 \Rightarrow x^2 = 0 \Rightarrow x = 0$.
+- **(ii) $f(x) = 0$**: Already solved in part (a), $x = 2$.
+    These represent the $x$-coordinates of the local maximum and minimum points.
+#### (e) Sketch the graph
+
+- The graph has two branches.
+    
+- One branch stays below $y = -4$ (turning point at $(0, -4)$).
+    
+- One branch stays above $y = 0$ (turning point at $(2, 0)$).
+    
+- The region $-4 < y < 0$ is empty.
