@@ -719,3 +719,104 @@ So, we need $\cos(3k) = 1$ or $\cos(3k) = -1$.
 - $3k = n\pi \Rightarrow k = \frac{n\pi}{3}$ for $n \in \{0, 1, 2, 3, 4, 5, 6\}$.
     **Values:** $k = 0, \frac{\pi}{3}, \frac{2\pi}{3}, \pi, \frac{4\pi}{3}, \frac{5\pi}{3}, 2\pi$.
 ---
+
+## Problem 1: Palindromic Polynomials
+**Tags:** #Polynomials #Roots #ReciprocalPairs #MathematicalProof #IBMathAAHL #Paper3
+
+![[2ba35433dfc894909f0baa6c82d47ebe.jpg]]![[8a63e1f6648871fa6e345587bdc23824.jpg]]
+?
+### Error Analysis
+- **Algebraic Manipulation (Part b):** A common mistake is trying to show $\frac{1}{s+\sqrt{t}} = s-\sqrt{t}$ without rationalizing the denominator. Failing to multiply by the conjugate ($\frac{s-\sqrt{t}}{s-\sqrt{t}}$) prevents the proof of the reciprocal property.
+- **Functional Verification (Part c):** Errors often occur when substituting $\frac{1}{x}$ into the quadratic. Students sometimes forget to distribute the $x^2$ across all terms, leading to a mismatch with the original $p(x)$.
+- **Root Logic (Part d):** There is often confusion between the value of the function and the value of the root. One must explicitly state that if $p(\alpha) = 0$, then $p(\frac{1}{\alpha})$ must also evaluate to zero based on the given identity.
+- **System of Equations (Part f):** When expanding $(x^2+ux+1)(x^2+vx+1)$, errors in collecting like terms for $x^3$ and $x^2$ are frequent. Misidentifying $u+v=2$ and $uv+2=-1$ leads to incorrect integer solutions.
+---
+### Correct Solution
+#### (a) Roots of $x^2 + 4x + 1 = 0$
+Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$$x = \frac{-4 \pm \sqrt{16 - 4}}{2} = \frac{-4 \pm \sqrt{12}}{2} = \frac{-4 \pm 2\sqrt{3}}{2}$$
+**Roots:** $-2 \pm \sqrt{3}$
+#### (b) Show Reciprocal Pair
+Let $\alpha = -2 + \sqrt{3}$. We check if $\frac{1}{\alpha} = -2 - \sqrt{3}$ by rationalizing:
+$$\frac{1}{-2 + \sqrt{3}} \cdot \frac{-2 - \sqrt{3}}{-2 - \sqrt{3}} = \frac{-2 - \sqrt{3}}{(-2)^2 - (\sqrt{3})^2} = \frac{-2 - \sqrt{3}}{4 - 3} = -2 - \sqrt{3}$$
+Since $\frac{1}{\alpha}$ is the other root, they form a reciprocal pair.
+#### (c) Verify $p(x) = x^2 p\left(\frac{1}{x}\right)$
+For $p(x) = ax^2 + bx + a$:
+$$x^2 p\left(\frac{1}{x}\right) = x^2 \left[ a\left(\frac{1}{x}\right)^2 + b\left(\frac{1}{x}\right) + a \right]$$
+$$= x^2 \left[ \frac{a}{x^2} + \frac{b}{x} + a \right] = a + bx + ax^2 = p(x)$$
+#### (d) Proof of Reciprocal Root
+If $\alpha$ is a root, then $p(\alpha) = 0$. Using the identity $p(x) = x^n p\left(\frac{1}{x}\right)$:
+$$p(\alpha) = \alpha^n p\left(\frac{1}{\alpha}\right) = 0$$
+Since $\alpha \neq 0$ (as the constant term $a \neq 0$), we divide by $\alpha^n$:
+$$p\left(\frac{1}{\alpha}\right) = 0$$
+Thus, $\frac{1}{\alpha}$ is also a root.
+#### (e) Show $f$ is a Palindromic Polynomial
+Let $p(x)$ have degree $n$ and $q(x)$ have degree $m$. Since they are palindromic:
+$p(x) = x^n p(\frac{1}{x})$ and $q(x) = x^m q(\frac{1}{x})$.
+For the product $f(x) = p(x)q(x)$:
+$$f(x) = \left[ x^n p\left(\frac{1}{x}\right) \right] \cdot \left[ x^m q\left(\frac{1}{x}\right) \right]$$
+$$f(x) = x^{n+m} \left[ p\left(\frac{1}{x}\right) q\left(\frac{1}{x}\right) \right]$$
+$$f(x) = x^{n+m} f\left(\frac{1}{x}\right)$$
+Since $f(x)$ satisfies the palindromic identity for degree $n+m$, **$f$ is a palindromic polynomial.**
+#### (f) Solve for $u$ and $v$
+Expand $(x^2 + ux + 1)(x^2 + vx + 1)$:
+$$x^4 + (u+v)x^3 + (uv + 2)x^2 + (u+v)x + 1$$
+Equating to $x^4 + 2x^3 - x^2 + 2x + 1$:
+1. $u + v = 2$
+2. $uv + 2 = -1 \Rightarrow uv = -3$
+    Solving $u(2-u) = -3 \Rightarrow u^2 - 2u - 3 = 0 \Rightarrow (u-3)(u+1) = 0$.
+    Given $u < v$: **$u = -1, v = 3$**.
+#### (h) Root of Odd Degree Palindromic Equation
+For odd degree $n$, the identity is $p(x) = x^n p(\frac{1}{x})$. Substitute $x = -1$:
+$$p(-1) = (-1)^n p\left(\frac{1}{-1}\right)$$
+Since $n$ is odd, $(-1)^n = -1$:
+$$p(-1) = -1 \cdot p(-1) \Rightarrow 2p(-1) = 0 \Rightarrow p(-1) = 0$$
+Thus, $-1$ is always a root.
+---
+
+## Problem 2: Hexagonal Numbers
+**Tags:** #SequencesAndSeries #HexagonalNumbers #MathematicalInduction #IBMathAAHL #Paper3
+
+![[a6cfaa021a0d2b7c8c9587a5fcc8bd41.jpg]]
+?
+### Error Analysis
+- **Recursive Step Miscounting (Part b):** A common error is misidentifying the number of points added when moving from $h_n$ to $h_{n+1}$. If students do not account for the overlapping vertices in the hexagonal layers, they might incorrectly derive the common difference.
+- **Summation Indexing (Part c):** When converting the recurrence relation into a series (e.g., $h_n = h_1 + \sum_{i=1}^{n-1} (4i + 1)$), students often use $n$ instead of $n-1$ as the upper limit, leading to an incorrect quadratic formula.
+- **Quadratic Solving (Part d/e):** Forgetting to check if $n$ is a positive integer after solving $2n^2 - n = K$. A hexagonal number must correspond to a natural number $n \in \mathbb{N}$.
+- **Proof by Counterexample (Part f):** Students sometimes try to prove the general divisibility rule instead of simply finding one other number (like $h_9$ or $h_{18}$) that is divisible by 9 to disprove the "only" part of the statement.
+---
+### Correct Solution
+#### (a) Value of $h_5$
+From the diagram and recurrence: $h_1=1, h_2=6, h_3=15, h_4=28$.
+Using the pattern $h_{n+1} = h_n + 4n + 1$:
+$h_5 = h_4 + 4(4) + 1 = 28 + 17 = 45$.
+#### (b) Show $h_{n+1} = h_n + 4n + 1$
+Adding a new "layer" to a hexagon with side $n$ to create side $n+1$ involves adding 4 new sides of length $n$ and 1 extra point to close the shape, while 2 sides are already shared with the previous layer.
+The number of new points added is $4(n+1) - 3 = 4n + 1$.
+Thus, $h_{n+1} = h_n + 4n + 1$.
+#### (c) Show $h_n = 2n^2 - n$
+$h_n = 1 + \sum_{r=1}^{n-1} (4r + 1)$
+$h_n = 1 + 4\frac{(n-1)n}{2} + (n-1)$
+$h_n = 1 + 2n^2 - 2n + n - 1 = 2n^2 - n$.
+#### (d) Determine if 2016 is a hexagonal number
+Set $2n^2 - n = 2016 \Rightarrow 2n^2 - n - 2016 = 0$.
+Using the quadratic formula: $n = \frac{1 \pm \sqrt{1 - 4(2)(-2016)}}{4} = \frac{1 \pm \sqrt{16129}}{4} = \frac{1 \pm 127}{4}$.
+$n = \frac{128}{4} = 32$.
+Since 32 is a positive integer, **2016 is the 32nd hexagonal number.**
+#### (e) Least hexagonal number > 80000
+$2n^2 - n > 80000 \Rightarrow 2n^2 - n - 80000 > 0$.
+Solving $2n^2 - n - 80000 = 0$: $n = \frac{1 + \sqrt{1 + 640000}}{4} \approx \frac{1 + 800}{4} \approx 200.25$.
+Since $n$ must be an integer, we test $n = 201$.
+$h_{201} = 2(201)^2 - 201 = 2(40401) - 201 = 80802 - 201 = 80601$.
+The value for $n=200$ is $h_{200} = 2(40000) - 200 = 79800$.
+**The least hexagonal number is 80601.**
+#### (f) Disprove "45 is the only hexagonal number divisible by 9"
+We need a counterexample. Let $h_n = n(2n-1)$.
+If $n=9$, $h_9 = 9(2(9)-1) = 9(17) = 153$.
+153 is divisible by 9 ($153/9 = 17$) and $153 \neq 45$.
+**Statement is false.**
+#### (g) $h_n$ in terms of $n$ and $m$
+$h_n = m + \sum_{r=1}^{n-1} (4r + 1)$
+$h_n = m + 2n^2 - 2n + n - 1$
+**$h_n = 2n^2 - n + m - 1$**.
+---
