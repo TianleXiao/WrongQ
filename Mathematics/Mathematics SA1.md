@@ -313,41 +313,23 @@ $k \approx 1.00388...$.
 $1 + \frac{r}{1200} = 1.00388... \implies r \approx 4.66$.
 **$r = 4.66\% \text{ (3sf)}$**.
 #### (b) Scenario 2: Final Payment after 88 months
-
 ** (i) Payments before final:** The scenario says she makes payments of $p$ for 7 years and 4 months.
-
 **$88 \text{ payments}$**.
-
 ** (ii) Final payment amount:**
-
 First, find the balance remaining after 88 months ($B_{88}$):
-
 $B_{88} = 480000k^{88} - 5000(\frac{k^{88}-1}{k-1})$.
-
 Using $k$ from part (a): $B_{88} \approx \$157,640.48$.
-
 The final payment includes this balance plus one last month of interest:
-
 Final Payment $= B_{88} \times k \approx 157640.48 \times 1.00388...$.
-
 **Final Payment $\approx \$158,300$ (to 4sf)**.
-
 #### (c) Scenario 3: Increasing payments
-
 Jane pays $p$ for 60 months, then $2p$ for 60 months.
-
 The balance at month 60 ($B_{60}$) becomes the "initial" amount for the next 60 months:
-
 1. $B_{60} = 480000k^{60} - p(\frac{k^{60}-1}{k-1})$.
-    
 2. $B_{120} = B_{60}k^{60} - 2p(\frac{k^{60}-1}{k-1}) = 0$.
-    
     Substitute $B_{60}$ into the second equation:
-    
     $480000k^{120} - p(\frac{k^{60}-1}{k-1})k^{60} - 2p(\frac{k^{60}-1}{k-1}) = 0$.
-    
     Solve for $p$ using GDC:
-    
     **$p \approx \$3,439$**.
 ### GDC Tip
 Python
@@ -362,13 +344,13 @@ Python
 # Always set PV and Pmt with opposite signs (Cash In vs Cash Out).
 ```
 ---
+
 ## Problem 11: Trigonometric Modeling (Tides)
 Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem Context:
 
 ![[11.jpg]]![[11(2).jpg]]
 ?
 
----
 ### Error Analysis
 - **Period vs. $b$ Value:** A common error is setting $b = 12$. The parameter $b$ is related to the period by the formula $b = \frac{2\pi}{\text{Period}}$.
 - **Phase Shift ($c$) Confusion:** The value of $c$ represents a horizontal shift. Since the first _high tide_ occurs at $t = 4.5$, and a sine graph reaches its maximum at one-quarter of its period, $c$ is not simply $4.5$. You must account for the nature of the sine wave starting at its principal axis.
