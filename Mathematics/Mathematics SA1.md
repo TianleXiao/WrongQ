@@ -402,7 +402,7 @@ Python
 # Ensure your calculator is in RADIAN mode for all trig modeling.
 ```
 ---
-# Problem 3: Quadratic Properties and Coefficients
+## Problem 3: Quadratic Properties and Coefficients
 **Tags:** #QuadraticFunctions #Symmetry #Intercepts #VertexForm #IBMathAA #Paper1 #Flashcards 
 
 Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{Z}$. The graph of $f$ has a local minimum when $x = 2.5$. The distance between the two $x$-intercepts of the graph of $f$ is $7$.
