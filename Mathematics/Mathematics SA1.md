@@ -439,12 +439,13 @@ Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{
     $$0 = (-1)^2 - 5(-1) + c$$
     $$0 = 1 + 5 + c \implies c = -6$$
 ---
+
 ## Problem 4: Partial Fractions and Telescoping Series
 **Tags:** #Algebra #PartialFractions #TelescopingSeries #Summation #IBMathAA #Paper1 #Flashcards 
+
 (a) Write $\frac{1}{x^2 - x}$ using partial fractions.
 (b) Hence evaluate $\frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \frac{1}{3 \times 4} + \dots + \frac{1}{99 \times 100}$.
 ?
-
 ### Error Analysis
 - **Conceptual Misunderstanding (Part a):** The student attempted to "complete the square" in the denominator rather than decomposing the expression into partial fractions. While completing the square is useful for integration or finding vertices, partial fraction decomposition requires factoring the denominator into linear terms like $x(x - 1)$.
 - **Missing Decomposition Steps:** There was no attempt to set up the identity $\frac{1}{x(x-1)} = \frac{A}{x} + \frac{B}{x-1}$.
