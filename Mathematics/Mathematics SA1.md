@@ -526,3 +526,41 @@ Given $32x^3 - 144x^2 + 214x - 105 = 0$:
     From part (a), we know $4 + 2\sqrt{3} = (1+\sqrt{3})^2$.$$AB = \sqrt{(1+\sqrt{3})^2}$$
     **$AB = 1 + \sqrt{3}$** (where $a=1, b=3$).
 ---
+
+## Problem 8: Combinatorics (Arrangements)
+**Tags:** #Combinatorics #Permutations #Arrangements #Probability #IBMathAA #Paper1
+
+A coed soccer team consists of 2 boys and 3 girls. They are standing in a line posing for a team picture. Find the number of arrangements such that:
+(a) All the boys stand next to each other and all the girls stand next to each other. 
+(b) All the boys stand next to each other. 
+(c) All the boys are apart and all the girls are apart. (d) Just the boys are apart.
+?
+### Error Analysis
+- **Undercounting Group Permutations (Part a):** The student calculated $2! \times 3! = 12$, but forgot that the two "blocks" (the block of boys and the block of girls) can switch places. There are $2!$ ways to arrange the blocks themselves.
+- **Treating Groups as the Whole (Part b):** The student wrote $2! = 2$, which only accounts for the internal arrangement of the boys. They failed to treat the 2 boys as one single "unit" and arrange that unit among the 3 remaining girls.
+- **Missing Logic (Parts c & d):** These sections were left blank or incomplete. These require "slotting" or "complementary" logic, which is a common area of difficulty in IB combinatorics.
+---
+### Correct Solution
+#### (a) Boys next to each other AND girls next to each other
+1. Treat the boys as one unit $B$ and the girls as one unit $G$.
+2. Arrange the units: $2! = 2$ ways ($BG$ or $GB$).
+3. Arrange inside the units: Boys internal arrangement ($2!$) and girls internal arrangement ($3!$).
+4. **Total:** $2! \times 2! \times 3! = 2 \times 2 \times 6 = \mathbf{24}$.
+#### (b) All the boys stand next to each other
+1. Treat the 2 boys as one unit. Now you have $1$ unit $+ 3$ individual girls $= 4$ items to arrange.
+2. Arrange the 4 items: $4! = 24$ ways.
+3. Arrange the boys internally: $2! = 2$ ways.
+4. **Total:** $24 \times 2 = \mathbf{48}$.
+#### (c) All boys apart AND all girls apart
+1. For 2 boys and 3 girls to all be apart, they must alternate.
+2. The only possible pattern is **G B G B G**.
+3. Arrange the girls in their 3 slots: $3! = 6$ ways.
+4. Arrange the boys in their 2 slots: $2! = 2$ ways.
+5. **Total:** $6 \times 2 = \mathbf{12}$.
+#### (d) Just the boys are apart
+1. Use the "slot" method. First, arrange the 3 girls: $3! = 6$ ways.
+    - $\text{\_ G \_ G \_ G \_}$
+2. There are 4 available slots (indicated by underscores) for the 2 boys.
+3. Choose 2 slots for the boys and arrange them: $^4P_2 = 4 \times 3 = 12$ ways.
+4. **Total:** $6 \times 12 = \mathbf{72}$.
+---
