@@ -456,3 +456,41 @@ Method 2: Vertex/Symmetry Formula
     **The sum evaluates to $0.99$.**
     
 ---
+
+## Problem 6: Polynomial Roots and Arithmetic Sequences
+
+**Tags:** #Polynomials #VietasFormulas #ArithmeticSequences #Algebra #IBMathAA #Paper1 #Flashcards 
+
+Consider the equation $32x^3 - 144x^2 + 214x - 105 = 0$.
+(a) Find the sum and product of the roots of this equation in their simplest forms.
+(b) The roots of this equation are three consecutive terms of an arithmetic sequence. Taking the roots to be $a-d$, $a$, and $a+d$, solve the equation.
+?
+### Error Analysis
+- **Vieta's Formula Application (Part a):** The student's work shows confusion regarding the coefficients $a_n$ used in Vieta's formulas. The student used $-105$ as the denominator. In Vieta's formulas for a cubic $Ax^3 + Bx^2 + Cx + D = 0$, the denominator must always be the leading coefficient $A$ (which is $32$ here), not the constant term $D$.
+- **Sign Errors:** For a cubic equation, the product of the roots is $-\frac{D}{A}$. The student used an incorrect formula or sign convention, leading to a fraction that did not simplify correctly.
+- **Algebraic Complexity (Part b):** Because the sum of the roots was calculated incorrectly in part (a), the value for the middle term $a$ (where $3a = \text{sum of roots}$) was incorrect. This led to extremely messy fractions and impossible radicals for $d$.
+- **Logical Flow:** The student correctly identified that the sum of $(a-d) + a + (a+d) = 3a$, but used the wrong numerical target for $3a$.
+---
+## Correct Solution
+#### (a) Find the sum and product of the roots
+Given $32x^3 - 144x^2 + 214x - 105 = 0$:
+1. **Sum of roots:** $\sum \alpha = -\frac{B}{A} = -\frac{-144}{32} = \frac{144}{32}$
+    - Simplify: $\frac{144}{32} = \frac{18}{4} = \mathbf{4.5}$ (or $\frac{9}{2}$).
+2. **Product of roots:** $\alpha\beta\gamma = -\frac{D}{A} = -\frac{-105}{32} = \mathbf{\frac{105}{32}}$.
+#### (b) Solve the equation
+1. **Find $a$:**
+    The sum of roots is $(a-d) + a + (a+d) = 3a$.
+    $$3a = \frac{9}{2} \implies a = \frac{3}{2} = \mathbf{1.5}$$
+2. **Find $d$:**
+    Using the product of roots: $(a-d)(a)(a+d) = \frac{105}{32}$
+    $$a(a^2 - d^2) = \frac{105}{32}$$
+    Substitute $a = \frac{3}{2}$:
+    $$\frac{3}{2}\left(\frac{9}{4} - d^2\right) = \frac{105}{32}$$
+    Multiply by $\frac{2}{3}$: $\frac{9}{4} - d^2 = \frac{105}{32} \cdot \frac{2}{3} = \frac{35}{16}$$$d^2 = \frac{9}{4} - \frac{35}{16} = \frac{36}{16} - \frac{35}{16} = \frac{1}{16}$$$$d = \pm \frac{1}{4}$$
+3. **State the roots:**
+    - $x_1 = a - d = \frac{3}{2} - \frac{1}{4} = \frac{5}{4}$
+    - $x_2 = a = \frac{3}{2}$ (or $\frac{6}{4}$)
+    - $x_3 = a + d = \frac{3}{2} + \frac{1}{4} = \frac{7}{4}$
+        **The roots are $1.25, 1.5,$ and $1.75$.**
+---
+
