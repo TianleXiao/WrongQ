@@ -439,3 +439,35 @@ Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{
     $$0 = (-1)^2 - 5(-1) + c$$
     $$0 = 1 + 5 + c \implies c = -6$$
 ---
+## Problem 4: Partial Fractions and Telescoping Series
+**Tags:** #Algebra #PartialFractions #TelescopingSeries #Summation #IBMathAA #Paper1 #Flashcards 
+(a) Write $\frac{1}{x^2 - x}$ using partial fractions.
+(b) Hence evaluate $\frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \frac{1}{3 \times 4} + \dots + \frac{1}{99 \times 100}$.
+?
+
+### Error Analysis
+- **Conceptual Misunderstanding (Part a):** The student attempted to "complete the square" in the denominator rather than decomposing the expression into partial fractions. While completing the square is useful for integration or finding vertices, partial fraction decomposition requires factoring the denominator into linear terms like $x(x - 1)$.
+- **Missing Decomposition Steps:** There was no attempt to set up the identity $\frac{1}{x(x-1)} = \frac{A}{x} + \frac{B}{x-1}$.
+- **Inability to Connect Parts (Part b):** Because Part (a) was not solved correctly, the student could not apply the "Hence" instruction. Part (b) relies on using the result from (a) to create a **telescoping series**, where intermediate terms cancel out.
+- **Pattern Recognition:** The student failed to recognize that each term in the sum is of the form $\frac{1}{n(n+1)}$, which is the numerical equivalent of the algebraic expression in Part (a) (with a slight sign/variable shift).
+---
+### Correct Solution
+#### (a) Write $\frac{1}{x^2 - x}$ using partial fractions
+1. **Factor the denominator:**    $$\frac{1}{x^2 - x} = \frac{1}{x(x - 1)}$$
+2. **Set up the partial fraction form:**$$\frac{1}{x(x - 1)} = \frac{A}{x} + \frac{B}{x - 1}$$
+3. **Solve for $A$ and $B$:**
+    Multiply by $x(x - 1)$: $1 = A(x - 1) + Bx$
+    - Let $x = 0 \implies 1 = A(-1) \implies A = -1$
+    - Let $x = 1 \implies 1 = B(1) \implies B = 1$
+4. **Final Expression:**$$\frac{1}{x^2 - x} = \frac{1}{x - 1} - \frac{1}{x}$$
+#### (b) Evaluate $\frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \dots + \frac{1}{99 \times 100}$
+1. **Relate to Part (a):** Note that $\frac{1}{n(n+1)}$ can be decomposed using the same logic: $\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$.
+2. **Expand the sum:**
+    $$\left( \frac{1}{1} - \frac{1}{2} \right) + \left( \frac{1}{2} - \frac{1}{3} \right) + \left( \frac{1}{3} - \frac{1}{4} \right) + \dots + \left( \frac{1}{99} - \frac{1}{100} \right)$$
+3. **Cancel terms (Telescoping):**
+    Observe that $-\frac{1}{2} + \frac{1}{2} = 0$, $-\frac{1}{3} + \frac{1}{3} = 0$, and so on. Only the first and last terms remain.
+    4. **Final Calculation:**
+    $$1 - \frac{1}{100} = \frac{99}{100}$$
+    **The sum evaluates to $0.99$.**
+    
+---
