@@ -118,6 +118,7 @@ Use the **Area Formula**: $\text{Area} = \frac{1}{2}ab\sin C$
 $$\text{Area} = \frac{1}{2}(70)(40)\sin(125^\circ)$$
 $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ---
+
 ## Problem 5: Exponential Functions and Graphing
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
@@ -164,6 +165,7 @@ $$f(0) \approx 1.478 - 4 = -2.522$$
 - **Table Mode:** Use the table function to find exact values for $x = -3, -2, -1, 0, 1, 2$ before sketching.
 - **Zero/Intercept Tools:** Use `Analyze Graph` -> `Zero` to find the $x$-intercept precisely.
 ---
+
 ## Problem 6: Function Properties and Inequalities
 
 **Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2 #SectionA
@@ -231,10 +233,11 @@ Consider the inner function $f(x) = \frac{x^2 - 1}{x^2 + 1}$.
 The domain of the inverse is the range of the original function.
 **Domain:** $0 < x \le \pi$.
 #### (d) Sketch the graph of $y = g^{-1}(x)$
-- **Vertical Asymptote:** $x = 0$ (since $\cos(0) = 1$, the denominator becomes $0$).
+- **Vertical Asymptote:** $x = 0$ (since $\cos(0) = 1$, the denominator becomes $0$.
 - **$x$-intercept:** None.
 - **Endpoint:** When $x = \pi$, $y = \sqrt{\frac{1-1}{1+1}} = 0$. So the graph touches the axis at $(\pi, 0)$.
 ---
+
 ## Problem 8: Cumulative Frequency and Data Analysis
 
 **Tags:** #Statistics #CumulativeFrequency #BoxPlot #Quartiles #Paper2
@@ -249,7 +252,6 @@ The domain of the inverse is the range of the original function.
 - **Box Plot Scale:** Part (g) explicitly requires a scale of $2\text{ cm}$ to $1000\text{ km}$. Failure to use this specific scale on graph paper results in a loss of all marks for that section.
 ---
 ### Correct Solution
-
 #### (a) Drivers between $3200$ and $5000$ km
 1. At $x = 5000$, $y = 78$ (approx).
 2. At $x = 3200$, $y = 50$ (approx).
@@ -282,13 +284,13 @@ Python
 # Q1, Med, Q3, MinX, and MaxX.
 ```
 ---
+
 ## Problem 10: Financial Mathematics (Loans and Sequences)
 
 **Tags:** #Finance #GeometricSequences #Loans #Amortization #GDC #Paper2
 
 ![[10.jpg]]
 ?
-
 ### Error Analysis
 - **Sequence Misidentification:** In financial problems where interest is added _before_ the payment, the balance follows a specific recurrence relation. Many students mistake this for a simple interest problem or fail to set the final balance to zero.
 - **Rounding in Intermediate Steps:** Because the exponent is $1200$, even a small rounding error in the value of $r$ or $k$ leads to a massive discrepancy in the final dollar amount. Always keep the full precision in your GDC.
@@ -402,6 +404,7 @@ Python
 # Ensure your calculator is in RADIAN mode for all trig modeling.
 ```
 ---
+
 ## Problem 3: Quadratic Properties and Coefficients
 **Tags:** #QuadraticFunctions #Symmetry #Intercepts #VertexForm #IBMathAA #Paper1 #Flashcards 
 
@@ -432,7 +435,7 @@ Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{
 3. **Identify coefficients:**
     - **$b = -5$**
     - **$c = -6$**
-**Method 2: Vertex/Symmetry Formula**
+Method 2: Vertex/Symmetry Formula
 4. The axis of symmetry is given by $x = -\frac{b}{2a}$. Given $x = 2.5$ and $a = 1$:
     $$2.5 = -\frac{b}{2(1)} \implies b = -5$$
 5. Substitute one intercept, e.g., $(-1, 0)$, into the function $f(x) = x^2 - 5x + c$:

@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SectionA",
+                "query": "Problem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b379db4131eb4ea",
+  "active": "093626d69d0ede1d",
   "lastOpenFiles": [
     "Physics/Physics SA1.md",
     "Physics/Assets/Pasted image 20260131171550.png",
