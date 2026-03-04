@@ -28,17 +28,16 @@
               "type": "pdf",
               "state": {
                 "file": "Business/AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi.pdf",
-                "page": 5,
+                "page": 14,
                 "left": -8,
-                "top": 99,
-                "zoom": 1.8142856854875289
+                "top": 449,
+                "zoom": 1.8142856854875287
               },
               "icon": "lucide-file-text",
               "title": "AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,11 +217,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "54750cfbc7c5af55",
+  "active": "963b246aa204032c",
   "lastOpenFiles": [
+    "Business/AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi.pdf",
     "Business/Business SA1.md",
     "Business/AY25-26 SA1 Practice _G11_Mark scheme.pdf",
-    "Business/AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi.pdf",
     "Mathematics/Mathematics SA1.md",
     "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Business/Assets/~b76a29c5ca087c68c36b05facdd0729.tmp",
