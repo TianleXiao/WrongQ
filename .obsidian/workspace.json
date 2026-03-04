@@ -32,9 +32,21 @@
               "icon": "lucide-file",
               "title": "Mathematics SA1"
             }
+          },
+          {
+            "id": "54750cfbc7c5af55",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "d015de9bdcaf564093bd4eb7f2350040.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "d015de9bdcaf564093bd4eb7f2350040"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,37 +222,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc94e4f374917ef1",
+  "active": "54750cfbc7c5af55",
   "lastOpenFiles": [
-    "Untitled",
-    "Mathematics/Assets/a6cfaa021a0d2b7c8c9587a5fcc8bd41.jpg",
-    "Mathematics/Assets/8a63e1f6648871fa6e345587bdc23824.jpg",
-    "Mathematics/Assets/2ba35433dfc894909f0baa6c82d47ebe.jpg",
-    "Physics/Physics SA1.md",
+    "dc790a272c0ab7f9ebeeb67ba1efee36.jpg",
+    "ef53b8f7cfce599c2b98009dd6fd8e40.jpg",
+    "fb76a29c5ca087c68c36b05facdd0729.jpg",
+    "d015de9bdcaf564093bd4eb7f2350040.jpg",
+    "cd55a38abfc8bebfc76f0664c256b7ae.jpg",
+    "Business SA1.md",
+    "a7ddf1dcdc158f64fd253783a97fcbe7.jpg",
+    "90371c1e038b5545944f82c47095fcc5.jpg",
+    "339f022ea0150b842f6606f7c8f3aafd.jpg",
+    "6d0eb1adcb13d0946717ce8a82b65e17.jpg",
+    "06cbeecccea0987cbf446c5651d44575.jpg",
+    "1d1c7820ad83541a000277b89a147f9c.jpg",
     "Mathematics/Mathematics SA1.md",
+    "Business",
+    "Physics/Physics SA1.md",
     "Mathematics/Assets/01eb88622da3c0f7b697556414555d2c.jpg.~tmp",
-    "Mathematics/Assets/01eb88622da3c0f7b697556414555d2c.jpg",
     "Mathematics/Assets/4535c794cd7c1349a9e73ab87422c6d3.jpg.~tmp",
-    "Mathematics/Assets/4535c794cd7c1349a9e73ab87422c6d3.jpg",
     "Excalidraw/Drawing 2026-03-03 17.43.25.excalidraw.md",
     "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw.md",
     "Mathematics/Assets/2f059bc9912a53005d2662d360151d81.jpg.~tmp",
-    "Mathematics/Assets/2f059bc9912a53005d2662d360151d81.jpg",
-    "Physics/Assets/Pasted image 20260131171550.png",
-    "Physics/Assets/Pasted image 20260131171528.png",
     "README.md",
-    "Mathematics/Assets/Pasted image 20260204212525.png",
     "Mathematics/Assets/5.jpg.~tmp",
-    "Mathematics/Assets/5.jpg",
     "Mathematics/Assets/11(2).jpg.~tmp",
     "Mathematics/Assets/11.jpg.~tmp",
     "Mathematics/Assets/10.jpg.~tmp",
     "Mathematics/Assets/9.jpg.~tmp",
     "English/Writing.md",
     "English/Assets",
-    "English",
     "2026-02-04.md",
     "Excalidraw/Drawing 2026-02-04 21.22.15.excalidraw.md",
     "Excalidraw/Drawing 2026-02-04 21.15.17.excalidraw.md"
