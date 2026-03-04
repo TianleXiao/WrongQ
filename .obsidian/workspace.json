@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b379db4131eb4ea",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-04 21.11.05.excalidraw"
-            }
-          },
-          {
             "id": "963b246aa204032c",
             "type": "leaf",
             "state": {
@@ -37,18 +25,20 @@
             "id": "54750cfbc7c5af55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Business/Business SA1.md",
-                "mode": "source",
-                "source": false
+                "file": "Business/AY25-26 SA1 Practice _G11_Mark scheme.pdf",
+                "page": 9,
+                "left": -11,
+                "top": 680,
+                "zoom": 1.43630950101096
               },
-              "icon": "lucide-file",
-              "title": "Business SA1"
+              "icon": "lucide-file-text",
+              "title": "AY25-26 SA1 Practice _G11_Mark scheme"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "729e08bf59dfceb5",
@@ -221,13 +212,18 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "54750cfbc7c5af55",
   "lastOpenFiles": [
-    "Mathematics/Mathematics SA1.md",
     "Business/Business SA1.md",
+    "Business/AY25-26 SA1 Practice _G11_Mark scheme.pdf",
+    "Mathematics/Mathematics SA1.md",
+    "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Business/Assets/~b76a29c5ca087c68c36b05facdd0729.tmp",
     "Business/Assets/~f53b8f7cfce599c2b98009dd6fd8e40.tmp",
     "Business/Assets/~c790a272c0ab7f9ebeeb67ba1efee36.tmp",
@@ -237,7 +233,6 @@
     "Business/Assets/~7ddf1dcdc158f64fd253783a97fcbe7.tmp",
     "Business/Assets/~0371c1e038b5545944f82c47095fcc5.tmp",
     "Business/Assets/339f022ea0150b842f6606f7c8f3aafd.jpg~RF723482.TMP",
-    "Business/Assets/~39f022ea0150b842f6606f7c8f3aafd.tmp",
     "Business/Assets/339f022ea0150b842f6606f7c8f3aafd.jpg",
     "Business/Assets/cd55a38abfc8bebfc76f0664c256b7ae.jpg",
     "Business/Assets/d015de9bdcaf564093bd4eb7f2350040.jpg",
@@ -250,7 +245,6 @@
     "Business/Assets/06cbeecccea0987cbf446c5651d44575.jpg",
     "Physics/Physics SA1.md",
     "Excalidraw/Drawing 2026-03-03 17.43.25.excalidraw.md",
-    "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 13.53.43.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 14.08.39.excalidraw.md",
     "README.md",
