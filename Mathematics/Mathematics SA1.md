@@ -344,6 +344,7 @@ Python
 # Always set PV and Pmt with opposite signs (Cash In vs Cash Out).
 ```
 ---
+<!--SR:!2026-03-08,3,250-->
 
 ## Problem 11: Trigonometric Modeling (Tides)
 Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem Context:
