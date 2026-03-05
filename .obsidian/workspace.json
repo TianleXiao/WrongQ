@@ -20,22 +20,6 @@
               "icon": "lucide-file",
               "title": "Mathematics SA1"
             }
-          },
-          {
-            "id": "54750cfbc7c5af55",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Business/AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi.pdf",
-                "page": 14,
-                "left": -8,
-                "top": 449,
-                "zoom": 1.8142856854875287
-              },
-              "icon": "lucide-file-text",
-              "title": "AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi"
-            }
           }
         ]
       }
@@ -219,9 +203,9 @@
   "active": "47ac9548deda43f8",
   "lastOpenFiles": [
     "Business/AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi.pdf",
+    "Mathematics/Mathematics SA1.md",
     "Business/Business SA1.md",
     "Business/AY25-26 SA1 Practice _G11_Mark scheme.pdf",
-    "Mathematics/Mathematics SA1.md",
     "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Business/Assets/~b76a29c5ca087c68c36b05facdd0729.tmp",
     "Business/Assets/~f53b8f7cfce599c2b98009dd6fd8e40.tmp",
