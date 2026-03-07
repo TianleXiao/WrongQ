@@ -4,7 +4,6 @@
 
 ![[Pasted image 20260307130850.png]]
 ?
-
 ### Error Analysis
 - **Calculation Success (Part a):** Your calculation for the maximum speed was correct. You accurately used the area under the speed-time graph (the sum of two triangles) to set up the equation $29.8 = \frac{1}{2}(3.5)v + \frac{1}{2}(17.5 - 3.5)v$.
 - **Missing Analysis (Part b):** The second part of the question was left blank. To solve for the coefficient of friction, you need to link the **deceleration** of the stone to the **frictional force** acting on it.
