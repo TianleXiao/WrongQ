@@ -122,7 +122,7 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ## Problem 5: Exponential Functions and Graphing
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
-#SectionA #F
+#SectionA #Flashcards/IBMath/SA1 
 
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
@@ -168,7 +168,7 @@ $$f(0) \approx 1.478 - 4 = -2.522$$
 
 ## Problem 6: Function Properties and Inequalities
 
-**Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2 #SectionA
+**Tags:** #Functions #OddFunctions #Inequalities #RationalFunctions #GDC #Paper2 #SectionA #Flashcards/IBMath/SA1 
 
 Consider $f(x) = 2^x - \frac{1}{2^x}$ for $x \in \mathbb{R}$.
 (a) Show that $f$ is an odd function.
@@ -200,7 +200,7 @@ To show a function is odd, we must prove $f(-x) = -f(x)$.
 
 ## Problem 7: Composite and Inverse Functions
 
-**Tags:** #Functions #InverseFunctions #RangeAndDomain #Trigonometry #GDC #Paper2 #SectionA
+**Tags:** #Functions #InverseFunctions #RangeAndDomain #Trigonometry #GDC #Paper2 #SectionA #Flashcards/IBMath/SA1 
 
 A function $g$ is defined by $g(x) = \arccos\left(\frac{x^2 - 1}{x^2 + 1}\right), x \in \mathbb{R}, x \ge 0$.
 (a) Find the range of $g$.
@@ -240,7 +240,7 @@ The domain of the inverse is the range of the original function.
 
 ## Problem 8: Cumulative Frequency and Data Analysis
 
-**Tags:** #Statistics #CumulativeFrequency #BoxPlot #Quartiles #Paper2
+**Tags:** #Statistics #CumulativeFrequency #BoxPlot #Quartiles #Paper2 #Flashcards/IBMath/SA1 
 
 ![[9.jpg]]
 ![[9 (2).jpg]]
@@ -287,7 +287,7 @@ Python
 
 ## Problem 10: Financial Mathematics (Loans and Sequences)
 
-**Tags:** #Finance #GeometricSequences #Loans #Amortization #GDC #Paper2
+**Tags:** #Finance #GeometricSequences #Loans #Amortization #GDC #Paper2 #Flashcards/IBMath/SA1 
 
 ![[10.jpg]]
 ?
