@@ -347,7 +347,7 @@ Python
 <!--SR:!2026-03-08,3,250-->
 
 ## Problem 11: Trigonometric Modeling (Tides)
-Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem Context:
+Tags: #Trigonometry #SineFunctions #Modeling #Tides #Calculus #Paper2Problem #Flashcards/IBMath/SA1 
 
 ![[11.jpg]]![[11(2).jpg]]
 ?
@@ -388,7 +388,7 @@ Python
 ---
 
 ## Problem 3: Quadratic Properties and Coefficients
-**Tags:** #QuadraticFunctions #Symmetry #Intercepts #VertexForm #IBMathAA #Paper1 #Flashcards 
+**Tags:** #QuadraticFunctions #Symmetry #Intercepts #VertexForm #IBMathAA #Paper1 #Flashcards/IBMath/SA1  
 
 Consider $f(x) = x^2 + bx + c$, for $x \in \mathbb{R}$, where $b, c \in \mathbb{Z}$. The graph of $f$ has a local minimum when $x = 2.5$. The distance between the two $x$-intercepts of the graph of $f$ is $7$.
 (a) Find the coordinates of the two $x$-intercepts.
@@ -426,7 +426,7 @@ Method 2: Vertex/Symmetry Formula
 ---
 
 ## Problem 4: Partial Fractions and Telescoping Series
-**Tags:** #Algebra #PartialFractions #TelescopingSeries #Summation #IBMathAA #Paper1 #Flashcards 
+**Tags:** #Algebra #PartialFractions #TelescopingSeries #Summation #IBMathAA #Paper1 #Flashcards/IBMath/SA1  
 
 (a) Write $\frac{1}{x^2 - x}$ using partial fractions.
 (b) Hence evaluate $\frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \frac{1}{3 \times 4} + \dots + \frac{1}{99 \times 100}$.
@@ -460,7 +460,7 @@ Method 2: Vertex/Symmetry Formula
 
 ## Problem 6: Polynomial Roots and Arithmetic Sequences
 
-**Tags:** #Polynomials #VietasFormulas #ArithmeticSequences #Algebra #IBMathAA #Paper1 #Flashcards 
+**Tags:** #Polynomials #VietasFormulas #ArithmeticSequences #Algebra #IBMathAA #Paper1 #Flashcards/IBMath/SA1  
 
 Consider the equation $32x^3 - 144x^2 + 214x - 105 = 0$.
 (a) Find the sum and product of the roots of this equation in their simplest forms.
@@ -497,7 +497,7 @@ Given $32x^3 - 144x^2 + 214x - 105 = 0$:
 
 ## Problem 7: Trigonometry and the Cosine Rule
 **Tags:** #Trigonometry #CosineRule #SpecialAngles #Surds #IBMathAA #Paper1
-
+#Flashcards/IBMath/SA1 
 (a) Expand and simplify $(1+\sqrt{3})^2$.
 (b) By writing $75^\circ$ as $30^\circ + 45^\circ$, find the value of $\cos 75^\circ$.
 (c) In triangle $ABC$, $BC = \sqrt{6}$, $CA = 2$, and $A\hat{C}B = 75^\circ$. Find $AB$ in the form $a + \sqrt{b}$ where $a, b \in \mathbb{Z}$.![[Excalidraw/Drawing 2026-03-03 17.43.25.excalidraw]]
@@ -529,7 +529,7 @@ Given $32x^3 - 144x^2 + 214x - 105 = 0$:
 ---
 
 ## Problem 8: Combinatorics (Arrangements)
-**Tags:** #Combinatorics #Permutations #Arrangements #Probability #IBMathAA #Paper1
+**Tags:** #Combinatorics #Permutations #Arrangements #Probability #IBMathAA #Paper1 #Flashcards/IBMath/SA1 
 
 A coed soccer team consists of 2 boys and 3 girls. They are standing in a line posing for a team picture. Find the number of arrangements such that:
 (a) All the boys stand next to each other and all the girls stand next to each other. 
@@ -567,7 +567,7 @@ A coed soccer team consists of 2 boys and 3 girls. They are standing in a line p
 ---
 
 ## Problem 9: Transformations and Trigonometric Identities
-**Tags:** #Functions #Transformations #Trigonometry #InverseTrig #MathAAHL #Paper1 #Flashcards 
+**Tags:** #Functions #Transformations #Trigonometry #InverseTrig #MathAAHL #Paper1 #Flashcards/IBMath/SA1  
 
 The following diagram shows the graph of $y = \arctan(2x - 3) + \frac{3\pi}{4}$ for $x \in \mathbb{R}$, with asymptotes at $y = \frac{\pi}{4}$ and $y = \frac{5\pi}{4}$.
 **(a)** Describe a sequence of transformations that transforms the graph of $y = \arctan x$ to the graph of $y = \arctan(2x - 3) + \frac{3\pi}{4}$ for $x \in \mathbb{R}$.
@@ -599,7 +599,7 @@ $$\arctan p - \arctan q = \arctan\left(\frac{p - q}{1 + pq}\right)$$
 ---
 
 ## Problem 10: Set Theory and Venn Diagrams
-**Tags:** #Sets #VennDiagrams #Probability #Logic #MathAAHL #Paper1
+**Tags:** #Sets #VennDiagrams #Probability #Logic #MathAAHL #Paper1 #F
 
 ![[2f059bc9912a53005d2662d360151d81.jpg]]
 ?
