@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Mathematics SA1.md",
+                "file": "Business/Business SA1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mathematics SA1"
+              "title": "Business SA1"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,10 +200,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "093626d69d0ede1d",
+  "active": "47ac9548deda43f8",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Mathematics/Mathematics SA1.md",
+    "Excalidraw/Drawing 2026-02-04 21.11.05.excalidraw.md",
     "Business/AY25-26_SA1_G11_IB_Business_Management_HL&SL_P2_MS_Peisi.pdf",
     "Business/Business SA1.md",
     "Business/AY25-26 SA1 Practice _G11_Mark scheme.pdf",
