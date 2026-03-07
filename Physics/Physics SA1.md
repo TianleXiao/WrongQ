@@ -1,5 +1,7 @@
 ## Problem 1: Kinematics and Dynamics of a Curling Stone
-**Tags:** #Kinematics #Dynamics #Friction #Mechanics #IBPhysics #Paper2 #Flashcards/ 
+**Tags:** #Kinematics #Dynamics #Friction #Mechanics #IBPhysics #Paper2 #Flashcards/IBPhysics/SA1 
+
+
 ![[Pasted image 20260307130850.png]]
 ?
 
