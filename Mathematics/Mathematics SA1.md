@@ -1,5 +1,5 @@
 ## Problem 1: Functions and Trigonometry
-**Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures #Paper2 #Flashcards/IBMath  #SectionA
+**Tags:** #Functions #Trigonometry #GDC_Skills #Accuracy #SignifantFigures #Paper2 #Flashcards/IBMath/SA1  #SectionA
 
 Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 (a) Sketch the graph.
@@ -21,7 +21,7 @@ Consider the function $f(x) = x^2 \arcsin(x)$, for $-1 \leq x \leq 1$.
 
 
 ## Problem 2: Probability Laws
-**Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram #Paper2 #Flashcards #SectionA
+**Tags:** #Probability #LogicError #Independence_Fallacy #VennDiagram #Paper2 #Flashcards/IBMath/SA1 #SectionA
 
 Two events $A$ and $B$ such that $P(A) = 3k$, $P(B) = k$, $P(A \cap B) = \frac{k^2}{2}$, and $P(A \cup B) = 0.78$.
 (a) Find the value of $k$.
@@ -48,7 +48,7 @@ $$0.2 - \frac{0.2^2}{2} = 0.2 - 0.02 = 0.18$$
 
 ## Problem 3: Exponential Functions and Modeling
 **Tags:** #Functions #Exponential_Models #GDC_Skills #IB_Presentation
-#Paper2 #Flashcards #SectionA
+#Paper2 #Flashcards/IBMath/SA1 #SectionA
 
 The mass $m(t)$ (in nanograms) of radioactive carbon in a plant fossil after $t$ years is modeled by the function:
 $$m(t) = 120e^{-0.000121t}$$
