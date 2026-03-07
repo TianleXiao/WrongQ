@@ -89,7 +89,7 @@ Since we need the "smallest number of **complete years**" for the decay to excee
 
 ## Problem 4: Bearings and Triangle Trigonometry
 
-**Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards #SectionA
+**Tags:** #Trigonometry #Bearings #CosineRule #SineRule #Paper2 #Geometry #Flashcards/IBMath/SA1 #SectionA
 
 ![[5.jpg]]
 ?
@@ -122,7 +122,7 @@ $$\text{Area} = 1400 \times 0.819... \approx 1147\text{ km}^2$$
 ## Problem 5: Exponential Functions and Graphing
 
 **Tags:** #Functions #Exponential #Graphing #Intercepts #GDC #Paper2
-#SectionA
+#SectionA #F
 
 Let $f(x) = 0.2e^{x+2} - 4$, for $-3 \le x \le 2$.
 (a) Sketch the graph of $y = f(x)$ on the grid.
