@@ -599,7 +599,7 @@ $$\arctan p - \arctan q = \arctan\left(\frac{p - q}{1 + pq}\right)$$
 ---
 
 ## Problem 10: Set Theory and Venn Diagrams
-**Tags:** #Sets #VennDiagrams #Probability #Logic #MathAAHL #Paper1 #F
+**Tags:** #Sets #VennDiagrams #Probability #Logic #MathAAHL #Paper1 #Flashcards/IBMath/SA1 
 
 ![[2f059bc9912a53005d2662d360151d81.jpg]]
 ?
@@ -642,7 +642,7 @@ $$P = \frac{90}{380} + \frac{20}{380} + \frac{20}{380} = \frac{130}{380} = \frac
 ---
 
 ## Problem 11: Rational Functions and Asymptotes
-**Tags:** #Functions #RationalFunctions #Asymptotes #Calculus #IBMathAAHL #Paper1 #Flashcards 
+**Tags:** #Functions #RationalFunctions #Asymptotes #Calculus #IBMathAAHL #Paper1 #Flashcards/IBMath/SA1  
 
 ![[4535c794cd7c1349a9e73ab87422c6d3.jpg]]
 ?
@@ -684,7 +684,7 @@ This inequality holds for $-4 < k < 0$.
 ---
 
 ## Problem 12: Trigonometric Identities and Cubic Equations
-**Tags:** #Trigonometry #CubicFunctions #VietaFormulas #RootsOfEquations #MathAAHL #Paper1 #Flashcards 
+**Tags:** #Trigonometry #CubicFunctions #VietaFormulas #RootsOfEquations #MathAAHL #Paper1 #Flashcards/IBMath/SA1  
 
 ![[01eb88622da3c0f7b697556414555d2c.jpg]]
 ?
@@ -722,7 +722,7 @@ So, we need $\cos(3k) = 1$ or $\cos(3k) = -1$.
 ---
 
 ## Problem 1: Palindromic Polynomials
-**Tags:** #Polynomials #Roots #ReciprocalPairs #MathematicalProof #IBMathAAHL #Paper3
+**Tags:** #Polynomials #Roots #ReciprocalPairs #MathematicalProof #IBMathAAHL #Paper3 #Flashcards/IBMath/SA1 
 
 ![[2ba35433dfc894909f0baa6c82d47ebe.jpg]]![[8a63e1f6648871fa6e345587bdc23824.jpg]]
 ?
@@ -776,7 +776,7 @@ Thus, $-1$ is always a root.
 ---
 
 ## Problem 2: Hexagonal Numbers
-**Tags:** #SequencesAndSeries #HexagonalNumbers #MathematicalInduction #IBMathAAHL #Paper3
+**Tags:** #SequencesAndSeries #HexagonalNumbers #MathematicalInduction #IBMathAAHL #Paper3 #Flashcards/IBMath/SA1 
 
 ![[a6cfaa021a0d2b7c8c9587a5fcc8bd41.jpg]]
 ?

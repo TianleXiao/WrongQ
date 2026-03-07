@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Flashcards",
+                "query": "tag:#Flashcards/IBMath/SA1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,7 +200,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "093626d69d0ede1d",
+  "active": "cc94e4f374917ef1",
   "lastOpenFiles": [
     "Physics/Physics SA1.md",
     "Pasted image 20260307130850.png",
