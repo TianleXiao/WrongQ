@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "729e08bf59dfceb5",
@@ -198,7 +199,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "963b246aa204032c",
+  "active": "47ac9548deda43f8",
   "lastOpenFiles": [
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.docx",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper2.docx",
