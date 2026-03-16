@@ -11,12 +11,14 @@
             "id": "963b246aa204032c",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
+              "type": "markdown",
               "state": {
-                "file": "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper2.docx"
+                "file": "Mathematics/SA1/Mathematics SA1.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "G11_IB_MS_SA1_AAHL_Paper2"
+              "title": "Mathematics SA1"
             }
           }
         ]
@@ -200,8 +202,8 @@
   },
   "active": "47ac9548deda43f8",
   "lastOpenFiles": [
-    "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.docx",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper2.docx",
+    "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.docx",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.md",
     "Mathematics/SA1/Attachments/G11_IB_MS_SA1_AAHL_Paper1 3.png",
     "Mathematics/SA1/Attachments/G11_IB_MS_SA1_AAHL_Paper1 2.png",
