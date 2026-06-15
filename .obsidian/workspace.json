@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Mathematics SA1"
             }
+          },
+          {
+            "id": "c21d658fd49f56d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-06-15 22.43.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-06-15 22.43.18.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,6 +187,16 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "3d32c75c14fab2a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
         "currentTab": 5
@@ -192,16 +215,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "47ac9548deda43f8",
+  "active": "c21d658fd49f56d5",
   "lastOpenFiles": [
+    "Mathematics/SA1/Mathematics SA1.md",
+    "Excalidraw/Drawing 2026-06-15 22.43.18.excalidraw.md",
+    "Physics/Physics SA1.md",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper2.docx",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.docx",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.md",
@@ -211,8 +237,6 @@
     "Mathematics/SA1/Attachments/G11_IB_MS_SA1_AAHL_Paper1.png",
     "Mathematics/SA1/Attachments",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper3.docx",
-    "Mathematics/SA1/Mathematics SA1.md",
-    "Physics/Physics SA1.md",
     "Mathematics/SA1",
     "Mathematics/New folder",
     "Mathematics/G11_IB_MS_SA1_AAHL_Paper3.docx",
