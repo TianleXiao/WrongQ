@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Mathematics SA1"
             }
-          },
-          {
-            "id": "c21d658fd49f56d5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-06-15 22.43.18.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-15 22.43.18.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,10 +210,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c21d658fd49f56d5",
+  "active": "47ac9548deda43f8",
   "lastOpenFiles": [
-    "Mathematics/SA1/Mathematics SA1.md",
     "Excalidraw/Drawing 2026-06-15 22.43.18.excalidraw.md",
+    "Mathematics/SA1/Mathematics SA1.md",
     "Physics/Physics SA1.md",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper2.docx",
     "Mathematics/SA1/G11_IB_MS_SA1_AAHL_Paper1.docx",
